@@ -15,6 +15,8 @@
     --accent-soft: #e3efec;
     --warn: #b4530f;
     --warn-soft: #fbeee2;
+    --crit: #b3261e;
+    --crit-soft: #fbe4e2;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -27,6 +29,8 @@
       --accent-soft: #16302c;
       --warn: #e6a15c;
       --warn-soft: #332417;
+      --crit: #f2897f;
+      --crit-soft: #3a1a17;
     }
   }
   * { box-sizing: border-box; }
@@ -38,7 +42,7 @@
     padding: 32px 16px 60px;
   }
   .wrap { max-width: 720px; margin: 0 auto; }
-  header { margin-bottom: 28px; }
+  header { margin-bottom: 20px; }
   .eyebrow {
     text-transform: uppercase; letter-spacing: .08em; font-size: 11px;
     color: var(--accent); font-weight: 600; margin-bottom: 6px;
@@ -46,13 +50,37 @@
   h1 { margin: 0 0 6px; font-size: 24px; }
   .updated { color: var(--muted); font-size: 13px; }
 
+  section { margin-bottom: 20px; }
+  .section-title {
+    font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); margin: 0 0 8px 2px;
+  }
+
+  .incidents {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    max-height: 220px; overflow-y: auto;
+  }
+  .incident {
+    display: flex; gap: 10px; align-items: baseline; padding: 9px 14px;
+    border-bottom: 1px solid var(--border); font-size: 13px;
+  }
+  .incident:last-child { border-bottom: none; }
+  .incident time { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; font-size: 12px; }
+  .incident .dot {
+    width: 7px; height: 7px; border-radius: 999px; flex: none; margin-top: 3px;
+    background: var(--warn);
+  }
+  .incident.blocking .dot { background: var(--crit); }
+  .incident.blocking { background: var(--crit-soft); }
+
   .overall {
     background: var(--card); border: 1px solid var(--border); border-radius: 14px;
-    padding: 22px 24px; margin-bottom: 20px;
+    padding: 20px 24px;
     display: flex; align-items: center; justify-content: space-between; gap: 16px;
   }
   .overall .num { font-size: 40px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .overall .label { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .overall .times { color: var(--muted); font-size: 12px; margin-top: 6px; font-variant-numeric: tabular-nums; }
   .ring { width: 64px; height: 64px; flex: none; }
 
   .phase {
@@ -66,13 +94,15 @@
   .bar > div { height: 100%; background: var(--accent); border-radius: 5px; transition: width .5s ease; }
   .phase.attention .bar { background: var(--warn-soft); }
   .phase.attention .bar > div { background: var(--warn); }
+  .phase.not_started .bar > div { background: var(--muted); opacity: .35; }
   .tag {
     display: inline-block; margin-left: 8px; font-size: 11px; padding: 1px 7px;
     border-radius: 999px; background: var(--warn-soft); color: var(--warn); font-weight: 600;
   }
+  .phase-times { color: var(--muted); font-size: 11.5px; margin-top: 6px; font-variant-numeric: tabular-nums; }
 
   footer { margin-top: 28px; color: var(--muted); font-size: 12px; text-align: center; }
-  .empty { color: var(--muted); text-align: center; padding: 40px 0; }
+  .empty { color: var(--muted); text-align: center; padding: 30px 0; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -83,18 +113,26 @@
     <div class="updated" id="updated">Chargement…</div>
   </header>
 
-  <div class="overall" id="overall" hidden>
-    <div>
-      <div class="num" id="overall-num">0%</div>
-      <div class="label">avancement global</div>
+  <section id="incidents-section" hidden>
+    <div class="section-title">Problèmes rencontrés</div>
+    <div class="incidents" id="incidents"></div>
+  </section>
+
+  <section>
+    <div class="overall" id="overall" hidden>
+      <div>
+        <div class="num" id="overall-num">0%</div>
+        <div class="label">avancement global</div>
+        <div class="times" id="overall-times"></div>
+      </div>
+      <svg class="ring" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="27" fill="none" stroke="var(--accent-soft)" stroke-width="7"/>
+        <circle id="ring-fg" cx="32" cy="32" r="27" fill="none" stroke="var(--accent)" stroke-width="7"
+                stroke-dasharray="169.6" stroke-dashoffset="169.6" stroke-linecap="round"
+                transform="rotate(-90 32 32)"/>
+      </svg>
     </div>
-    <svg class="ring" viewBox="0 0 64 64">
-      <circle cx="32" cy="32" r="27" fill="none" stroke="var(--accent-soft)" stroke-width="7"/>
-      <circle id="ring-fg" cx="32" cy="32" r="27" fill="none" stroke="var(--accent)" stroke-width="7"
-              stroke-dasharray="169.6" stroke-dashoffset="169.6" stroke-linecap="round"
-              transform="rotate(-90 32 32)"/>
-    </svg>
-  </div>
+  </section>
 
   <div id="phases"></div>
   <div class="empty" id="empty" hidden>Pas de bascule en cours pour le moment.</div>
@@ -103,6 +141,12 @@
 </div>
 
 <script>
+function fmtTime(s) {
+  // "2026-09-12 15:59:38" -> "15:59"
+  const m = /(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}):\d{2}/.exec(s || '');
+  return m ? `${m[2]} (${m[1].slice(5).replace('-', '/')})` : s;
+}
+
 async function refresh() {
   try {
     const res = await fetch('progress.json?t=' + Date.now(), { cache: 'no-store' });
@@ -114,8 +158,30 @@ async function refresh() {
   }
 }
 
+function statusLabel(p) {
+  if (p.status === 'not_started') return 'en attente';
+  if (p.status === 'in_progress') return `en cours depuis ${fmtTime(p.started_at_human)}`;
+  if (p.status === 'done') return `terminé à ${fmtTime(p.ended_at_human)}`;
+  return '';
+}
+
 function render(data) {
   document.getElementById('updated').textContent = 'Dernière mise à jour : ' + data.updated_at;
+
+  const incSection = document.getElementById('incidents-section');
+  const incContainer = document.getElementById('incidents');
+  if (data.incidents && data.incidents.length) {
+    incSection.hidden = false;
+    incContainer.innerHTML = data.incidents.map(i => `
+      <div class="incident ${i.severity}">
+        <span class="dot"></span>
+        <time>${fmtTime(i.at_human)}</time>
+        <span>${i.message}</span>
+      </div>
+    `).join('');
+  } else {
+    incSection.hidden = true;
+  }
 
   const overallEl = document.getElementById('overall');
   overallEl.hidden = false;
@@ -123,6 +189,14 @@ function render(data) {
   const circumference = 169.6;
   const offset = circumference * (1 - data.overall_percent / 100);
   document.getElementById('ring-fg').style.strokeDashoffset = offset;
+  const times = document.getElementById('overall-times');
+  if (data.run_started_at_human) {
+    times.textContent = data.run_ended_at_human
+      ? `démarré à ${fmtTime(data.run_started_at_human)} · terminé à ${fmtTime(data.run_ended_at_human)}`
+      : `démarré à ${fmtTime(data.run_started_at_human)}`;
+  } else {
+    times.textContent = '';
+  }
 
   const container = document.getElementById('phases');
   const empty = document.getElementById('empty');
@@ -133,12 +207,13 @@ function render(data) {
   }
   empty.hidden = true;
   container.innerHTML = data.phases.map(p => `
-    <div class="phase ${p.attention ? 'attention' : ''}">
+    <div class="phase ${p.attention ? 'attention' : ''} ${p.status || ''}">
       <div class="phase-top">
         <span class="name">${p.label}${p.attention ? '<span class="tag">à vérifier</span>' : ''}</span>
         <span class="pct">${p.percent}%</span>
       </div>
       <div class="bar"><div style="width:${p.percent}%"></div></div>
+      <div class="phase-times">${statusLabel(p)}</div>
     </div>
   `).join('');
 }
