@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-12 15:10:53",
+  "updated_at": "2026-09-12 15:11:26",
   "overall_percent": 100.0,
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 50.0,
+      "percent": 75.0,
       "attention": false
     },
     {
