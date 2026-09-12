@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 16:51:02",
-  "overall_percent": 1.2,
+  "updated_at": "2026-09-12 16:51:43",
+  "overall_percent": 1.3,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -54,7 +54,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 0.0,
+      "percent": 0.1,
       "attention": false,
       "status": "in_progress",
       "substeps": null,
