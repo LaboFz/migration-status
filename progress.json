@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12 16:23:20",
+  "updated_at": "2026-09-12 16:23:54",
   "overall_percent": 0.0,
   "run_started_at_human": null,
   "run_ended_at_human": null,
@@ -8,8 +8,8 @@
       "label": "Préparation de l'environnement",
       "percent": 75.0,
       "attention": false,
-      "status": "not_started",
-      "started_at_human": null,
+      "status": "in_progress",
+      "started_at_human": "2026-09-12 16:23:33",
       "ended_at_human": null
     },
     {
