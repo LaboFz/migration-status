@@ -116,6 +116,13 @@
   .substep .sub-label { color: var(--muted); }
   .substep .sub-at { margin-left: auto; color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
 
+  .subbar-row { display: flex; flex-direction: column; gap: 3px; }
+  .subbar-top { display: flex; justify-content: space-between; font-size: 12px; }
+  .subbar-top .sub-label { color: var(--text); }
+  .subbar-top .sub-pct { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .subbar { height: 5px; border-radius: 4px; background: var(--accent-soft); overflow: hidden; }
+  .subbar > div { height: 100%; background: var(--accent); border-radius: 4px; }
+
   footer { margin-top: 28px; color: var(--muted); font-size: 12px; text-align: center; }
   .empty { color: var(--muted); text-align: center; padding: 30px 0; font-size: 13px; }
 </style>
@@ -236,11 +243,23 @@ function render(data) {
 }
 
 function renderSubsteps(substeps) {
+  const isChecklist = substeps.length && substeps[0].hasOwnProperty('done');
+  if (isChecklist) {
+    return `<ul class="substeps">` + substeps.map(s => `
+      <li class="substep ${s.done ? 'done' : ''}">
+        <span class="check"></span>
+        <span class="sub-label">${s.label}</span>
+        ${s.done && s.at_human ? `<span class="sub-at">${s.at_human}</span>` : ''}
+      </li>
+    `).join('') + `</ul>`;
+  }
   return `<ul class="substeps">` + substeps.map(s => `
-    <li class="substep ${s.done ? 'done' : ''}">
-      <span class="check"></span>
-      <span class="sub-label">${s.label}</span>
-      ${s.done && s.at_human ? `<span class="sub-at">${s.at_human}</span>` : ''}
+    <li class="subbar-row">
+      <div class="subbar-top">
+        <span class="sub-label">${s.label}</span>
+        <span class="sub-pct">${s.percent}%</span>
+      </div>
+      <div class="subbar"><div style="width:${s.percent}%"></div></div>
     </li>
   `).join('') + `</ul>`;
 }
