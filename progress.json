@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12 16:26:46",
+  "updated_at": "2026-09-12 16:27:21",
   "overall_percent": 0.0,
   "run_started_at_human": null,
   "run_ended_at_human": null,
@@ -73,7 +73,7 @@
     {
       "label": "Facturation",
       "percent": 0.0,
-      "attention": false,
+      "attention": true,
       "status": "not_started",
       "substeps": null,
       "started_at_human": null,
