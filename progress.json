@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 00:52:26",
+  "updated_at": "2026-09-13 00:53:03",
   "overall_percent": 0.0,
   "overall_migrated": 0,
   "overall_total": 1728969,
@@ -8,7 +8,7 @@
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 50.0,
+      "percent": 75.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -24,8 +24,8 @@
         },
         {
           "label": "Sauvegarde importée",
-          "done": false,
-          "at_human": null
+          "done": true,
+          "at_human": "Appliqué le 2026-09-13 00:52:48"
         },
         {
           "label": "Environnement réinitialisé",
