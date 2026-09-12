@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 17:02:14",
-  "overall_percent": 6.8,
+  "updated_at": "2026-09-12 17:02:53",
+  "overall_percent": 7.1,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -131,13 +131,13 @@
     },
     {
       "label": "Dossiers",
-      "percent": 23.4,
+      "percent": 24.5,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 89.0
+          "percent": 93.2
         },
         {
           "label": "Anticorps",
@@ -200,5 +200,11 @@
       "ended_at_human": null
     }
   ],
-  "incidents": []
+  "incidents": [
+    {
+      "at_human": "2026-09-12 17:02:27",
+      "severity": "blocking",
+      "message": "Problème bloquant détecté — intervention nécessaire"
+    }
+  ]
 }
