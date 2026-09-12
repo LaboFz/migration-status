@@ -1,46 +1,73 @@
 {
-  "updated_at": "2026-09-12 16:18:19",
-  "overall_percent": 100.0,
+  "updated_at": "2026-09-12 16:19:36",
+  "overall_percent": 0.0,
+  "run_started_at_human": null,
+  "run_ended_at_human": null,
   "phases": [
     {
       "label": "Préparation de l'environnement",
       "percent": 75.0,
-      "attention": false
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Corrections préalables",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Données de référence",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Dossiers",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Caisse",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Facturation",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Utilisateurs",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Circuit de traitement",
-      "percent": 100.0,
-      "attention": false
+      "percent": 0.0,
+      "attention": false,
+      "status": "not_started",
+      "started_at_human": null,
+      "ended_at_human": null
     }
-  ]
+  ],
+  "incidents": []
 }
