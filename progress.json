@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-12 16:27:57",
-  "overall_percent": 0.0,
-  "run_started_at_human": null,
+  "updated_at": "2026-09-12 16:28:32",
+  "overall_percent": 100.0,
+  "run_started_at_human": "2026-09-12 16:28:16",
   "run_ended_at_human": null,
   "phases": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "label": "Corrections préalables",
-      "percent": 0.0,
+      "percent": 100.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": null,
-      "started_at_human": null,
+      "started_at_human": "2026-09-12 16:28:16",
       "ended_at_human": null
     },
     {
