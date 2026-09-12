@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 16:53:36",
-  "overall_percent": 37.4,
+  "updated_at": "2026-09-12 16:54:15",
+  "overall_percent": 37.8,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -54,13 +54,13 @@
     },
     {
       "label": "Dossiers",
-      "percent": 1.8,
+      "percent": 4.6,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 6.8
+          "percent": 17.7
         },
         {
           "label": "Anticorps",
