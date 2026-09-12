@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 00:53:41",
+  "updated_at": "2026-09-13 00:54:16",
   "overall_percent": 0.0,
   "overall_migrated": 0,
   "overall_total": 1728969,
@@ -8,9 +8,9 @@
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 75.0,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Instance de base de données démarrée",
@@ -29,14 +29,14 @@
         },
         {
           "label": "Environnement réinitialisé",
-          "done": false,
-          "at_human": null
+          "done": true,
+          "at_human": "Appliqué le 2026-09-13 00:53:47"
         }
       ],
       "migrated": 0,
       "total": 0,
       "started_at_human": "2026-09-13 00:35:10",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-13 00:53:47"
     },
     {
       "label": "Corrections préalables",
