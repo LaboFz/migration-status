@@ -1,5 +1,46 @@
 {
-  "updated_at": "en attente du premier cycle",
-  "overall_percent": 0,
-  "phases": []
+  "updated_at": "2026-09-12 14:36:15",
+  "overall_percent": 100.0,
+  "phases": [
+    {
+      "label": "Préparation de l'environnement",
+      "percent": 0.0,
+      "attention": false
+    },
+    {
+      "label": "Corrections préalables",
+      "percent": 100.0,
+      "attention": false
+    },
+    {
+      "label": "Données de référence",
+      "percent": 100.0,
+      "attention": false
+    },
+    {
+      "label": "Dossiers",
+      "percent": 100.0,
+      "attention": false
+    },
+    {
+      "label": "Caisse",
+      "percent": 100.0,
+      "attention": false
+    },
+    {
+      "label": "Facturation",
+      "percent": 100.0,
+      "attention": false
+    },
+    {
+      "label": "Utilisateurs",
+      "percent": 100.0,
+      "attention": false
+    },
+    {
+      "label": "Circuit de traitement",
+      "percent": 100.0,
+      "attention": false
+    }
+  ]
 }
