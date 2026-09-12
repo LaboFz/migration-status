@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 16:52:47",
-  "overall_percent": 1.6,
+  "updated_at": "2026-09-12 16:53:36",
+  "overall_percent": 37.4,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -54,10 +54,35 @@
     },
     {
       "label": "Dossiers",
-      "percent": 0.4,
+      "percent": 1.8,
       "attention": false,
       "status": "in_progress",
-      "substeps": null,
+      "substeps": [
+        {
+          "label": "Fiches dossier",
+          "percent": 6.8
+        },
+        {
+          "label": "Anticorps",
+          "percent": 0.0
+        },
+        {
+          "label": "Colorations",
+          "percent": 0.0
+        },
+        {
+          "label": "Cotations",
+          "percent": 0.0
+        },
+        {
+          "label": "Organes",
+          "percent": 0.0
+        },
+        {
+          "label": "Prélèvements",
+          "percent": 0.0
+        }
+      ],
       "started_at_human": "2026-09-12 16:46:56",
       "ended_at_human": null
     },
