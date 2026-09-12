@@ -101,6 +101,21 @@
   }
   .phase-times { color: var(--muted); font-size: 11.5px; margin-top: 6px; font-variant-numeric: tabular-nums; }
 
+  .substeps { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .substep { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+  .substep .check {
+    width: 16px; height: 16px; border-radius: 999px; flex: none;
+    border: 1.5px solid var(--border); position: relative;
+  }
+  .substep.done .check { background: var(--accent); border-color: var(--accent); }
+  .substep.done .check::after {
+    content: ""; position: absolute; left: 5px; top: 2px; width: 4px; height: 8px;
+    border: solid white; border-width: 0 1.5px 1.5px 0; transform: rotate(45deg);
+  }
+  .substep.done .sub-label { color: var(--text); }
+  .substep .sub-label { color: var(--muted); }
+  .substep .sub-at { margin-left: auto; color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+
   footer { margin-top: 28px; color: var(--muted); font-size: 12px; text-align: center; }
   .empty { color: var(--muted); text-align: center; padding: 30px 0; font-size: 13px; }
 </style>
@@ -212,10 +227,22 @@ function render(data) {
         <span class="name">${p.label}${p.attention ? '<span class="tag">à vérifier</span>' : ''}</span>
         <span class="pct">${p.percent}%</span>
       </div>
-      <div class="bar"><div style="width:${p.percent}%"></div></div>
-      <div class="phase-times">${statusLabel(p)}</div>
+      ${p.substeps ? renderSubsteps(p.substeps) : `
+        <div class="bar"><div style="width:${p.percent}%"></div></div>
+        <div class="phase-times">${statusLabel(p)}</div>
+      `}
     </div>
   `).join('');
+}
+
+function renderSubsteps(substeps) {
+  return `<ul class="substeps">` + substeps.map(s => `
+    <li class="substep ${s.done ? 'done' : ''}">
+      <span class="check"></span>
+      <span class="sub-label">${s.label}</span>
+      ${s.done && s.at_human ? `<span class="sub-at">${s.at_human}</span>` : ''}
+    </li>
+  `).join('') + `</ul>`;
 }
 
 refresh();
