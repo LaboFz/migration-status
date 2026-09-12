@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 16:43:53",
-  "overall_percent": 11.2,
+  "updated_at": "2026-09-12 16:44:44",
+  "overall_percent": 51.9,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -45,7 +45,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 11.2,
+      "percent": 51.8,
       "attention": false,
       "status": "in_progress",
       "substeps": null,
