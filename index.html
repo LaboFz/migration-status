@@ -122,6 +122,15 @@
   .subbar-top .sub-pct { color: var(--muted); font-variant-numeric: tabular-nums; }
   .subbar { height: 5px; border-radius: 4px; background: var(--accent-soft); overflow: hidden; }
   .subbar > div { height: 100%; background: var(--accent); border-radius: 4px; }
+  .sub-note { font-size: 11px; color: var(--warn); }
+  .sub-time { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .rows { font-weight: 400; color: var(--muted); font-size: 0.85em; }
+
+  .chunks { display: flex; gap: 3px; margin-top: 4px; }
+  .chunk { flex: 1; height: 8px; border-radius: 2px; background: var(--accent-soft); overflow: hidden; }
+  .chunk > div { height: 100%; background: var(--accent); }
+  .chunk.done { background: var(--accent); }
+  .chunk.done > div { background: var(--accent); }
 
   footer { margin-top: 28px; color: var(--muted); font-size: 12px; text-align: center; }
   .empty { color: var(--muted); text-align: center; padding: 30px 0; font-size: 13px; }
@@ -212,12 +221,16 @@ function render(data) {
   const offset = circumference * (1 - data.overall_percent / 100);
   document.getElementById('ring-fg').style.strokeDashoffset = offset;
   const times = document.getElementById('overall-times');
+  const rows = (data.overall_total || 0) > 0
+    ? `${fmtNum(data.overall_migrated)} / ${fmtNum(data.overall_total)} lignes`
+    : '';
   if (data.run_started_at_human) {
-    times.textContent = data.run_ended_at_human
+    const t = data.run_ended_at_human
       ? `démarré à ${fmtTime(data.run_started_at_human)} · terminé à ${fmtTime(data.run_ended_at_human)}`
       : `démarré à ${fmtTime(data.run_started_at_human)}`;
+    times.textContent = rows ? `${rows} — ${t}` : t;
   } else {
-    times.textContent = '';
+    times.textContent = rows;
   }
 
   const container = document.getElementById('phases');
@@ -232,7 +245,7 @@ function render(data) {
     <div class="phase ${p.attention ? 'attention' : ''} ${p.status || ''}">
       <div class="phase-top">
         <span class="name">${p.label}${p.attention ? '<span class="tag">à vérifier</span>' : ''}</span>
-        <span class="pct">${p.percent}%</span>
+        <span class="pct">${p.percent}%${p.total ? ` <span class="rows">(${fmtNum(p.migrated)} / ${fmtNum(p.total)})</span>` : ''}</span>
       </div>
       ${p.substeps ? renderSubsteps(p.substeps) : `
         <div class="bar"><div style="width:${p.percent}%"></div></div>
@@ -240,6 +253,10 @@ function render(data) {
       `}
     </div>
   `).join('');
+}
+
+function fmtNum(n) {
+  return (n || 0).toLocaleString('fr-FR');
 }
 
 function renderSubsteps(substeps) {
@@ -257,11 +274,28 @@ function renderSubsteps(substeps) {
     <li class="subbar-row">
       <div class="subbar-top">
         <span class="sub-label">${s.label}</span>
-        <span class="sub-pct">${s.percent}%</span>
+        <span class="sub-pct">${s.percent}%${s.total ? ` <span class="rows">(${fmtNum(s.migrated)} / ${fmtNum(s.total)})</span>` : ''}</span>
       </div>
       <div class="subbar"><div style="width:${s.percent}%"></div></div>
+      ${s.chunks ? renderChunks(s.chunks) : ''}
+      ${subTimeLabel(s) ? `<div class="sub-time">${subTimeLabel(s)}</div>` : ''}
+      ${s.note ? `<div class="sub-note">${s.note}</div>` : ''}
     </li>
   `).join('') + `</ul>`;
+}
+
+function subTimeLabel(s) {
+  if (s.ended_at_human) return `${fmtTime(s.started_at_human)} → ${fmtTime(s.ended_at_human)}`;
+  if (s.started_at_human) return `depuis ${fmtTime(s.started_at_human)}`;
+  return '';
+}
+
+function renderChunks(chunks) {
+  return `<div class="chunks">` + chunks.map((c, i) => `
+    <div class="chunk ${c.complete ? 'done' : ''}" title="Thread ${i + 1} : ${c.percent}%">
+      <div style="width:${c.percent}%"></div>
+    </div>
+  `).join('') + `</div>`;
 }
 
 refresh();
