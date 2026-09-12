@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 00:55:26",
+  "updated_at": "2026-09-13 00:56:04",
   "overall_percent": 0.0,
   "overall_migrated": 0,
   "overall_total": 1728969,
@@ -55,7 +55,7 @@
       "attention": false,
       "status": "not_started",
       "substeps": null,
-      "migrated": 5837,
+      "migrated": 2485,
       "total": 6109,
       "started_at_human": null,
       "ended_at_human": null
@@ -66,7 +66,7 @@
       "attention": false,
       "status": "not_started",
       "substeps": null,
-      "migrated": 173290,
+      "migrated": 163290,
       "total": 474174,
       "started_at_human": null,
       "ended_at_human": null
