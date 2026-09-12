@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13 00:58:52",
+  "updated_at": "2026-09-13 00:59:30",
   "overall_percent": 0.0,
   "overall_migrated": 1,
-  "overall_total": 1728789,
+  "overall_total": 1728788,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
   "phases": [
@@ -56,7 +56,7 @@
       "status": "not_started",
       "substeps": null,
       "migrated": 2485,
-      "total": 5929,
+      "total": 5928,
       "started_at_human": null,
       "ended_at_human": null
     },
