@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-12 16:27:21",
+  "updated_at": "2026-09-12 16:27:57",
   "overall_percent": 0.0,
   "run_started_at_human": null,
   "run_ended_at_human": null,
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 75.0,
+      "percent": 100.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -27,8 +27,8 @@
         },
         {
           "label": "Environnement réinitialisé",
-          "done": false,
-          "at_human": null
+          "done": true,
+          "at_human": "Appliqué le 2026-09-12 16:27:21"
         }
       ],
       "started_at_human": "2026-09-12 16:23:33",
@@ -73,7 +73,7 @@
     {
       "label": "Facturation",
       "percent": 0.0,
-      "attention": true,
+      "attention": false,
       "status": "not_started",
       "substeps": null,
       "started_at_human": null,
