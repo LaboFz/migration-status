@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 16:46:47",
-  "overall_percent": 96.4,
+  "updated_at": "2026-09-12 16:47:28",
+  "overall_percent": 1.2,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -45,20 +45,20 @@
     },
     {
       "label": "Données de référence",
-      "percent": 96.4,
+      "percent": 97.4,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": null,
       "started_at_human": "2026-09-12 16:42:07",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-12 16:46:56"
     },
     {
       "label": "Dossiers",
       "percent": 0.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": null,
-      "started_at_human": null,
+      "started_at_human": "2026-09-12 16:46:56",
       "ended_at_human": null
     },
     {
