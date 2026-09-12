@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12 17:01:20",
-  "overall_percent": 40.0,
+  "updated_at": "2026-09-12 17:02:14",
+  "overall_percent": 6.8,
   "run_started_at_human": "2026-09-12 16:42:06",
   "run_ended_at_human": null,
   "phases": [
@@ -48,19 +48,96 @@
       "percent": 97.4,
       "attention": false,
       "status": "done",
-      "substeps": null,
+      "substeps": [
+        {
+          "label": "Sexe",
+          "percent": 100.0
+        },
+        {
+          "label": "Civilités",
+          "percent": 100.0
+        },
+        {
+          "label": "Villes",
+          "percent": 100.0
+        },
+        {
+          "label": "Colorations spéciales",
+          "percent": 100.0
+        },
+        {
+          "label": "Types d'examen",
+          "percent": 100.0
+        },
+        {
+          "label": "Types diagnostiques",
+          "percent": 97.6
+        },
+        {
+          "label": "Spécialités",
+          "percent": 100.0
+        },
+        {
+          "label": "Rubriques de dépense",
+          "percent": 100.0
+        },
+        {
+          "label": "Professions",
+          "percent": 100.0
+        },
+        {
+          "label": "Natures de donneur d'ordre",
+          "percent": 100.0
+        },
+        {
+          "label": "Mutuelles",
+          "percent": 100.0
+        },
+        {
+          "label": "Moyens de paiement",
+          "percent": 100.0
+        },
+        {
+          "label": "Organes",
+          "percent": 100.0
+        },
+        {
+          "label": "Remises",
+          "percent": 100.0
+        },
+        {
+          "label": "Cotations",
+          "percent": 98.4
+        },
+        {
+          "label": "Prélèvements",
+          "percent": 98.6
+        },
+        {
+          "label": "Donneurs d'ordre",
+          "percent": 100.0
+        },
+        {
+          "label": "Modèles de compte-rendu",
+          "percent": 100.0
+        },
+        {
+          "label": "Médecins",
+          "percent": 93.8
+        }
+      ],
       "started_at_human": "2026-09-12 16:42:07",
       "ended_at_human": "2026-09-12 16:46:56"
     },
     {
       "label": "Dossiers",
-      "percent": 22.4,
+      "percent": 23.4,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 85.4
+          "percent": 89.0
         },
         {
           "label": "Anticorps",
