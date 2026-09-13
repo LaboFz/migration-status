@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13 02:20:36",
-  "overall_percent": 38.5,
-  "overall_migrated": 666712,
+  "updated_at": "2026-09-13 02:21:10",
+  "overall_percent": 38.9,
+  "overall_migrated": 673712,
   "overall_total": 1731505,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
@@ -582,7 +582,7 @@
     },
     {
       "label": "Facturation",
-      "percent": 69.7,
+      "percent": 81.2,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -639,49 +639,49 @@
         },
         {
           "label": "Lignes de facture",
-          "percent": 71.6,
-          "migrated": 39500,
+          "percent": 84.2,
+          "migrated": 46500,
           "total": 55206,
           "note": null,
           "chunks": [
             {
-              "percent": 73.9,
+              "percent": 81.5,
               "complete": false
             },
             {
-              "percent": 65.4,
+              "percent": 82.2,
               "complete": false
             },
             {
-              "percent": 71.9,
+              "percent": 91.1,
               "complete": false
             },
             {
-              "percent": 66.2,
+              "percent": 74.5,
               "complete": false
             },
             {
-              "percent": 72.7,
+              "percent": 91.3,
               "complete": false
             },
             {
-              "percent": 73.5,
+              "percent": 82.3,
               "complete": false
             },
             {
-              "percent": 72.9,
+              "percent": 89.8,
               "complete": false
             },
             {
-              "percent": 72.0,
+              "percent": 81.8,
               "complete": false
             },
             {
-              "percent": 71.6,
+              "percent": 80.5,
               "complete": false
             },
             {
-              "percent": 66.9,
+              "percent": 75.3,
               "complete": false
             }
           ],
@@ -699,7 +699,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 42150,
+      "migrated": 49150,
       "total": 60506,
       "started_at_human": "2026-09-13 02:17:07",
       "ended_at_human": null
