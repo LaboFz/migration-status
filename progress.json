@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13 01:00:45",
+  "updated_at": "2026-09-13 01:01:22",
   "overall_percent": 0.2,
-  "overall_migrated": 2976,
+  "overall_migrated": 3040,
   "overall_total": 1728689,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
@@ -51,7 +51,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 51.0,
+      "percent": 52.1,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -163,7 +163,7 @@
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-13 01:00:44",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-13 01:00:45"
         },
         {
           "label": "Moyens de paiement",
@@ -172,8 +172,8 @@
           "total": 3,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-13 01:00:45",
+          "ended_at_human": "2026-09-13 01:00:46"
         },
         {
           "label": "Organes",
@@ -182,8 +182,8 @@
           "total": 49,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-13 01:00:46",
+          "ended_at_human": "2026-09-13 01:00:48"
         },
         {
           "label": "Remises",
@@ -192,18 +192,18 @@
           "total": 14,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-13 01:00:48",
+          "ended_at_human": "2026-09-13 01:00:49"
         },
         {
           "label": "Cotations",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 64,
           "total": 64,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-13 01:00:49",
+          "ended_at_human": "2026-09-13 01:00:52"
         },
         {
           "label": "Prélèvements",
@@ -212,7 +212,7 @@
           "total": 785,
           "note": "12 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-13 01:00:52",
           "ended_at_human": null
         },
         {
@@ -246,7 +246,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 2975,
+      "migrated": 3039,
       "total": 5829,
       "started_at_human": "2026-09-13 01:00:09",
       "ended_at_human": null
