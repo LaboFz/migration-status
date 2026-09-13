@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13 02:17:07",
-  "overall_percent": 36.1,
-  "overall_migrated": 624122,
-  "overall_total": 1728855,
+  "updated_at": "2026-09-13 02:17:42",
+  "overall_percent": 36.2,
+  "overall_migrated": 627212,
+  "overall_total": 1731505,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
   "phases": [
@@ -571,24 +571,96 @@
     },
     {
       "label": "Caisse",
-      "percent": 99.7,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": null,
-      "migrated": 143952,
+      "migrated": 144392,
       "total": 144392,
       "started_at_human": "2026-09-13 02:05:36",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-13 02:17:07"
     },
     {
       "label": "Facturation",
-      "percent": 0.0,
+      "percent": 4.4,
       "attention": false,
-      "status": "not_started",
-      "substeps": null,
-      "migrated": 0,
-      "total": 57856,
-      "started_at_human": null,
+      "status": "in_progress",
+      "substeps": [
+        {
+          "label": "Factures",
+          "percent": 100.0,
+          "migrated": 2650,
+          "total": 2650,
+          "note": null,
+          "chunks": [
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            }
+          ],
+          "started_at_human": "2026-09-13 02:17:07",
+          "ended_at_human": "2026-09-13 02:17:24"
+        },
+        {
+          "label": "Lignes de facture",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 55206,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 02:17:24",
+          "ended_at_human": null
+        },
+        {
+          "label": "Montants (correctif)",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 2650,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        }
+      ],
+      "migrated": 2650,
+      "total": 60506,
+      "started_at_human": "2026-09-13 02:17:07",
       "ended_at_human": null
     },
     {
