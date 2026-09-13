@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13 02:57:31",
-  "overall_percent": 69.4,
-  "overall_migrated": 1144155,
+  "updated_at": "2026-09-13 02:58:05",
+  "overall_percent": 69.9,
+  "overall_migrated": 1151655,
   "overall_total": 1648502,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
@@ -758,17 +758,22 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 47.6,
+      "percent": 48.4,
       "attention": false,
       "status": "in_progress",
       "substeps": null,
-      "migrated": 459039,
+      "migrated": 466539,
       "total": 963386,
       "started_at_human": "2026-09-13 02:22:11",
       "ended_at_human": null
     }
   ],
   "incidents": [
+    {
+      "at_human": "2026-09-13 02:57:34",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
     {
       "at_human": "2026-09-13 02:56:20",
       "severity": "retry",
