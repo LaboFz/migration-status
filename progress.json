@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13 02:05:37",
+  "updated_at": "2026-09-13 02:06:13",
   "overall_percent": 27.8,
-  "overall_migrated": 479937,
+  "overall_migrated": 480170,
   "overall_total": 1728855,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
@@ -514,8 +514,8 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 99.8,
-          "migrated": 132091,
+          "percent": 100.0,
+          "migrated": 132324,
           "total": 132324,
           "note": null,
           "chunks": [
@@ -536,8 +536,8 @@
               "complete": true
             },
             {
-              "percent": 98.2,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -564,7 +564,7 @@
           "ended_at_human": "2026-09-13 02:05:36"
         }
       ],
-      "migrated": 473941,
+      "migrated": 474174,
       "total": 474174,
       "started_at_human": "2026-09-13 01:22:30",
       "ended_at_human": "2026-09-13 02:05:36"
