@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13 02:12:10",
-  "overall_percent": 32.5,
-  "overall_migrated": 562170,
+  "updated_at": "2026-09-13 02:12:46",
+  "overall_percent": 33.0,
+  "overall_migrated": 570670,
   "overall_total": 1728855,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
@@ -571,11 +571,11 @@
     },
     {
       "label": "Caisse",
-      "percent": 56.8,
+      "percent": 62.7,
       "attention": false,
       "status": "in_progress",
       "substeps": null,
-      "migrated": 82000,
+      "migrated": 90500,
       "total": 144392,
       "started_at_human": "2026-09-13 02:05:36",
       "ended_at_human": null
