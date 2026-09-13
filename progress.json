@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13 01:00:08",
-  "overall_percent": 0.0,
-  "overall_migrated": 1,
-  "overall_total": 1728675,
+  "updated_at": "2026-09-13 01:00:45",
+  "overall_percent": 0.2,
+  "overall_migrated": 2976,
+  "overall_total": 1728689,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
   "phases": [
@@ -42,22 +42,213 @@
       "label": "Corrections préalables",
       "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": null,
       "migrated": 1,
       "total": 1,
       "started_at_human": "2026-09-13 00:58:28",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-13 01:00:09"
     },
     {
       "label": "Données de référence",
-      "percent": 0.0,
+      "percent": 51.0,
       "attention": false,
-      "status": "not_started",
-      "substeps": null,
-      "migrated": 2485,
-      "total": 5815,
-      "started_at_human": null,
+      "status": "in_progress",
+      "substeps": [
+        {
+          "label": "Sexe",
+          "percent": 100.0,
+          "migrated": 2,
+          "total": 2,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:09",
+          "ended_at_human": "2026-09-13 01:00:11"
+        },
+        {
+          "label": "Civilités",
+          "percent": 100.0,
+          "migrated": 5,
+          "total": 5,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:11",
+          "ended_at_human": "2026-09-13 01:00:12"
+        },
+        {
+          "label": "Villes",
+          "percent": 100.0,
+          "migrated": 17,
+          "total": 17,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:12",
+          "ended_at_human": "2026-09-13 01:00:13"
+        },
+        {
+          "label": "Colorations spéciales",
+          "percent": 100.0,
+          "migrated": 15,
+          "total": 15,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:13",
+          "ended_at_human": "2026-09-13 01:00:14"
+        },
+        {
+          "label": "Types d'examen",
+          "percent": 100.0,
+          "migrated": 11,
+          "total": 11,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:14",
+          "ended_at_human": "2026-09-13 01:00:14"
+        },
+        {
+          "label": "Types diagnostiques",
+          "percent": 100.0,
+          "migrated": 490,
+          "total": 490,
+          "note": "14 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:14",
+          "ended_at_human": "2026-09-13 01:00:37"
+        },
+        {
+          "label": "Spécialités",
+          "percent": 100.0,
+          "migrated": 32,
+          "total": 32,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:37",
+          "ended_at_human": "2026-09-13 01:00:39"
+        },
+        {
+          "label": "Rubriques de dépense",
+          "percent": 100.0,
+          "migrated": 52,
+          "total": 52,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:39",
+          "ended_at_human": "2026-09-13 01:00:42"
+        },
+        {
+          "label": "Professions",
+          "percent": 100.0,
+          "migrated": 21,
+          "total": 21,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:42",
+          "ended_at_human": "2026-09-13 01:00:43"
+        },
+        {
+          "label": "Natures de donneur d'ordre",
+          "percent": 100.0,
+          "migrated": 9,
+          "total": 9,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:43",
+          "ended_at_human": "2026-09-13 01:00:44"
+        },
+        {
+          "label": "Mutuelles",
+          "percent": 100.0,
+          "migrated": 28,
+          "total": 28,
+          "note": null,
+          "chunks": null,
+          "started_at_human": "2026-09-13 01:00:44",
+          "ended_at_human": null
+        },
+        {
+          "label": "Moyens de paiement",
+          "percent": 100.0,
+          "migrated": 3,
+          "total": 3,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Organes",
+          "percent": 100.0,
+          "migrated": 49,
+          "total": 49,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Remises",
+          "percent": 100.0,
+          "migrated": 14,
+          "total": 14,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Cotations",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 64,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Prélèvements",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 785,
+          "note": "12 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Donneurs d'ordre",
+          "percent": 100.0,
+          "migrated": 123,
+          "total": 123,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Modèles de compte-rendu",
+          "percent": 100.0,
+          "migrated": 2104,
+          "total": 2104,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Médecins",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 2005,
+          "note": "154 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        }
+      ],
+      "migrated": 2975,
+      "total": 5829,
+      "started_at_human": "2026-09-13 01:00:09",
       "ended_at_human": null
     },
     {
