@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 01:02:00",
+  "updated_at": "2026-09-13 01:02:39",
   "overall_percent": 0.2,
   "overall_migrated": 3837,
   "overall_total": 1728701,
@@ -307,5 +307,11 @@
       "ended_at_human": null
     }
   ],
-  "incidents": []
+  "incidents": [
+    {
+      "at_human": "2026-09-13 01:02:09",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    }
+  ]
 }
