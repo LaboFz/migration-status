@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 01:19:23",
+  "updated_at": "2026-09-13 01:19:59",
   "overall_percent": 0.2,
   "overall_migrated": 3837,
   "overall_total": 1728855,
@@ -233,7 +233,7 @@
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-13 01:01:36",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-13 01:19:59"
         },
         {
           "label": "Médecins",
@@ -242,7 +242,7 @@
           "total": 2159,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-13 01:19:59",
           "ended_at_human": null
         }
       ],
@@ -308,6 +308,11 @@
     }
   ],
   "incidents": [
+    {
+      "at_human": "2026-09-13 01:19:59",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
     {
       "at_human": "2026-09-13 01:18:18",
       "severity": "retry",
