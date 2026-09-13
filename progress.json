@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13 01:01:22",
+  "updated_at": "2026-09-13 01:02:00",
   "overall_percent": 0.2,
-  "overall_migrated": 3040,
-  "overall_total": 1728689,
+  "overall_migrated": 3837,
+  "overall_total": 1728701,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
   "phases": [
@@ -51,7 +51,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 52.1,
+      "percent": 65.7,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -207,13 +207,13 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 0.0,
-          "migrated": 0,
-          "total": 785,
+          "percent": 100.0,
+          "migrated": 797,
+          "total": 797,
           "note": "12 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
           "chunks": null,
           "started_at_human": "2026-09-13 01:00:52",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-13 01:01:29"
         },
         {
           "label": "Donneurs d'ordre",
@@ -222,8 +222,8 @@
           "total": 123,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-13 01:01:29",
+          "ended_at_human": "2026-09-13 01:01:35"
         },
         {
           "label": "Modèles de compte-rendu",
@@ -232,7 +232,7 @@
           "total": 2104,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-13 01:01:36",
           "ended_at_human": null
         },
         {
@@ -246,8 +246,8 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 3039,
-      "total": 5829,
+      "migrated": 3836,
+      "total": 5841,
       "started_at_human": "2026-09-13 01:00:09",
       "ended_at_human": null
     },
