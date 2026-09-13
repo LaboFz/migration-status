@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13 01:30:58",
-  "overall_percent": 9.8,
-  "overall_migrated": 169286,
+  "updated_at": "2026-09-13 01:32:29",
+  "overall_percent": 3.8,
+  "overall_migrated": 65496,
   "overall_total": 1728855,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
@@ -110,7 +110,7 @@
           "percent": 100.0,
           "migrated": 490,
           "total": 490,
-          "note": "14 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
+          "note": null,
           "chunks": null,
           "started_at_human": "2026-09-13 01:20:31",
           "ended_at_human": "2026-09-13 01:20:32"
@@ -210,7 +210,7 @@
           "percent": 100.0,
           "migrated": 797,
           "total": 797,
-          "note": "12 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
+          "note": null,
           "chunks": null,
           "started_at_human": "2026-09-13 01:20:35",
           "ended_at_human": "2026-09-13 01:20:36"
@@ -253,24 +253,65 @@
     },
     {
       "label": "Dossiers",
-      "percent": 34.4,
+      "percent": 12.5,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 100.0,
-          "migrated": 124618,
+          "percent": 47.7,
+          "migrated": 59500,
           "total": 124618,
           "note": null,
-          "chunks": null,
+          "chunks": [
+            {
+              "percent": 49.9,
+              "complete": false
+            },
+            {
+              "percent": 49.7,
+              "complete": false
+            },
+            {
+              "percent": 43.8,
+              "complete": false
+            },
+            {
+              "percent": 43.0,
+              "complete": false
+            },
+            {
+              "percent": 55.4,
+              "complete": false
+            },
+            {
+              "percent": 47.5,
+              "complete": false
+            },
+            {
+              "percent": 49.7,
+              "complete": false
+            },
+            {
+              "percent": 44.6,
+              "complete": false
+            },
+            {
+              "percent": 50.1,
+              "complete": false
+            },
+            {
+              "percent": 46.7,
+              "complete": false
+            }
+          ],
           "started_at_human": "2026-09-13 01:22:30",
           "ended_at_human": null
         },
         {
           "label": "Anticorps",
-          "percent": 100.0,
-          "migrated": 38672,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 38672,
           "note": null,
           "chunks": null,
@@ -318,7 +359,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 163290,
+      "migrated": 59500,
       "total": 474174,
       "started_at_human": "2026-09-13 01:22:30",
       "ended_at_human": null
