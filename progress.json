@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 01:19:59",
+  "updated_at": "2026-09-13 01:20:36",
   "overall_percent": 0.2,
   "overall_migrated": 3837,
   "overall_total": 1728855,
@@ -62,8 +62,8 @@
           "total": 2,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:09",
-          "ended_at_human": "2026-09-13 01:00:11"
+          "started_at_human": "2026-09-13 01:20:29",
+          "ended_at_human": "2026-09-13 01:20:30"
         },
         {
           "label": "Civilités",
@@ -72,8 +72,8 @@
           "total": 5,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:11",
-          "ended_at_human": "2026-09-13 01:00:12"
+          "started_at_human": "2026-09-13 01:20:30",
+          "ended_at_human": "2026-09-13 01:20:30"
         },
         {
           "label": "Villes",
@@ -82,8 +82,8 @@
           "total": 17,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:12",
-          "ended_at_human": "2026-09-13 01:00:13"
+          "started_at_human": "2026-09-13 01:20:30",
+          "ended_at_human": "2026-09-13 01:20:31"
         },
         {
           "label": "Colorations spéciales",
@@ -92,8 +92,8 @@
           "total": 15,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:13",
-          "ended_at_human": "2026-09-13 01:00:14"
+          "started_at_human": "2026-09-13 01:20:31",
+          "ended_at_human": "2026-09-13 01:20:31"
         },
         {
           "label": "Types d'examen",
@@ -102,8 +102,8 @@
           "total": 11,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:14",
-          "ended_at_human": "2026-09-13 01:00:14"
+          "started_at_human": "2026-09-13 01:20:31",
+          "ended_at_human": "2026-09-13 01:20:31"
         },
         {
           "label": "Types diagnostiques",
@@ -112,8 +112,8 @@
           "total": 490,
           "note": "14 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:14",
-          "ended_at_human": "2026-09-13 01:00:37"
+          "started_at_human": "2026-09-13 01:20:31",
+          "ended_at_human": "2026-09-13 01:20:32"
         },
         {
           "label": "Spécialités",
@@ -122,8 +122,8 @@
           "total": 32,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:37",
-          "ended_at_human": "2026-09-13 01:00:39"
+          "started_at_human": "2026-09-13 01:20:32",
+          "ended_at_human": "2026-09-13 01:20:32"
         },
         {
           "label": "Rubriques de dépense",
@@ -132,8 +132,8 @@
           "total": 52,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:39",
-          "ended_at_human": "2026-09-13 01:00:42"
+          "started_at_human": "2026-09-13 01:20:32",
+          "ended_at_human": "2026-09-13 01:20:33"
         },
         {
           "label": "Professions",
@@ -142,8 +142,8 @@
           "total": 21,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:42",
-          "ended_at_human": "2026-09-13 01:00:43"
+          "started_at_human": "2026-09-13 01:20:33",
+          "ended_at_human": "2026-09-13 01:20:33"
         },
         {
           "label": "Natures de donneur d'ordre",
@@ -152,8 +152,8 @@
           "total": 9,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:43",
-          "ended_at_human": "2026-09-13 01:00:44"
+          "started_at_human": "2026-09-13 01:20:33",
+          "ended_at_human": "2026-09-13 01:20:33"
         },
         {
           "label": "Mutuelles",
@@ -162,8 +162,8 @@
           "total": 28,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:44",
-          "ended_at_human": "2026-09-13 01:00:45"
+          "started_at_human": "2026-09-13 01:20:33",
+          "ended_at_human": "2026-09-13 01:20:34"
         },
         {
           "label": "Moyens de paiement",
@@ -172,8 +172,8 @@
           "total": 3,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:45",
-          "ended_at_human": "2026-09-13 01:00:46"
+          "started_at_human": "2026-09-13 01:20:34",
+          "ended_at_human": "2026-09-13 01:20:34"
         },
         {
           "label": "Organes",
@@ -182,8 +182,8 @@
           "total": 49,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:46",
-          "ended_at_human": "2026-09-13 01:00:48"
+          "started_at_human": "2026-09-13 01:20:34",
+          "ended_at_human": "2026-09-13 01:20:34"
         },
         {
           "label": "Remises",
@@ -192,8 +192,8 @@
           "total": 14,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:48",
-          "ended_at_human": "2026-09-13 01:00:49"
+          "started_at_human": "2026-09-13 01:20:34",
+          "ended_at_human": "2026-09-13 01:20:35"
         },
         {
           "label": "Cotations",
@@ -202,8 +202,8 @@
           "total": 64,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:49",
-          "ended_at_human": "2026-09-13 01:00:52"
+          "started_at_human": "2026-09-13 01:20:35",
+          "ended_at_human": "2026-09-13 01:20:35"
         },
         {
           "label": "Prélèvements",
@@ -212,8 +212,8 @@
           "total": 797,
           "note": "12 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
           "chunks": null,
-          "started_at_human": "2026-09-13 01:00:52",
-          "ended_at_human": "2026-09-13 01:01:29"
+          "started_at_human": "2026-09-13 01:20:35",
+          "ended_at_human": "2026-09-13 01:20:36"
         },
         {
           "label": "Donneurs d'ordre",
@@ -222,8 +222,8 @@
           "total": 123,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:01:29",
-          "ended_at_human": "2026-09-13 01:01:35"
+          "started_at_human": "2026-09-13 01:20:36",
+          "ended_at_human": null
         },
         {
           "label": "Modèles de compte-rendu",
