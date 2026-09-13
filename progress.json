@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13 03:41:24",
+  "updated_at": "2026-09-13 03:41:59",
   "overall_percent": 99.5,
-  "overall_migrated": 1647869,
-  "overall_total": 1655736,
+  "overall_migrated": 1650540,
+  "overall_total": 1658407,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
   "phases": [
@@ -762,8 +762,8 @@
       "attention": false,
       "status": "in_progress",
       "substeps": null,
-      "migrated": 962753,
-      "total": 970620,
+      "migrated": 965424,
+      "total": 973291,
       "started_at_human": "2026-09-13 02:22:11",
       "ended_at_human": null
     }
