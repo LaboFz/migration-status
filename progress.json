@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13 01:06:22",
+  "updated_at": "2026-09-13 01:06:59",
   "overall_percent": 0.2,
   "overall_migrated": 3837,
-  "overall_total": 1728701,
+  "overall_total": 1728855,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": null,
   "phases": [
@@ -51,7 +51,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 65.7,
+      "percent": 64.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -239,15 +239,15 @@
           "label": "Médecins",
           "percent": 0.0,
           "migrated": 0,
-          "total": 2005,
-          "note": "154 ligne(s) non migrée(s) : code source partagé par des lignes réellement distinctes (contrainte unique volontaire côté application) — décision métier en attente, pas encore tranchée",
+          "total": 2159,
+          "note": null,
           "chunks": null,
           "started_at_human": null,
           "ended_at_human": null
         }
       ],
       "migrated": 3836,
-      "total": 5841,
+      "total": 5995,
       "started_at_human": "2026-09-13 01:00:09",
       "ended_at_human": null
     },
