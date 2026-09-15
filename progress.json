@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15 16:29:28",
-  "overall_percent": 58.7,
-  "overall_migrated": 967659,
+  "updated_at": "2026-09-15 16:30:03",
+  "overall_percent": 59.2,
+  "overall_migrated": 975659,
   "overall_total": 1648506,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": "2026-09-13 03:42:44",
@@ -758,17 +758,32 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 29.3,
+      "percent": 30.2,
       "attention": false,
       "status": "done",
       "substeps": null,
-      "migrated": 282543,
+      "migrated": 290543,
       "total": 963390,
       "started_at_human": "2026-09-13 02:22:11",
       "ended_at_human": "2026-09-13 03:42:44"
     }
   ],
   "incidents": [
+    {
+      "at_human": "2026-09-15 16:30:02",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
+    {
+      "at_human": "2026-09-15 16:29:57",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
+    {
+      "at_human": "2026-09-15 16:29:55",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
     {
       "at_human": "2026-09-15 16:27:43",
       "severity": "retry",
@@ -901,21 +916,6 @@
     },
     {
       "at_human": "2026-09-13 02:53:05",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-13 02:39:05",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-13 02:36:52",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-13 02:36:39",
       "severity": "retry",
       "message": "Coupure réseau — reprise automatique en cours"
     }
