@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-15 17:44:49",
+  "updated_at": "2026-09-15 17:45:24",
   "overall_percent": 99.5,
-  "overall_migrated": 1639807,
-  "overall_total": 1648506,
+  "overall_migrated": 1642307,
+  "overall_total": 1650174,
   "run_started_at_human": "2026-09-13 00:58:28",
   "run_ended_at_human": "2026-09-13 03:42:44",
   "phases": [
@@ -758,12 +758,12 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 99.1,
+      "percent": 99.2,
       "attention": false,
       "status": "done",
       "substeps": null,
-      "migrated": 954691,
-      "total": 963390,
+      "migrated": 957191,
+      "total": 965058,
       "started_at_human": "2026-09-13 02:22:11",
       "ended_at_human": "2026-09-13 03:42:44"
     }
