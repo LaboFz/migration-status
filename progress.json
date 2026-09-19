@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:11:06",
+  "updated_at": "2026-09-19 23:11:19",
   "overall_percent": 0.0,
-  "overall_migrated": 1,
+  "overall_migrated": 51,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,14 +57,14 @@
     },
     {
       "label": "Données de référence",
-      "percent": 0.0,
+      "percent": 0.8,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Sexe",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 2,
           "total": 2,
           "note": null,
           "chunks": null,
@@ -73,8 +73,8 @@
         },
         {
           "label": "Civilités",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 5,
           "total": 5,
           "note": null,
           "chunks": null,
@@ -83,8 +83,8 @@
         },
         {
           "label": "Villes",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 17,
           "total": 17,
           "note": null,
           "chunks": null,
@@ -93,23 +93,23 @@
         },
         {
           "label": "Colorations spéciales",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 15,
           "total": 15,
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-19 23:11:05",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:11:06"
         },
         {
           "label": "Types d'examen",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 11,
           "total": 11,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:06",
+          "ended_at_human": "2026-09-19 23:11:07"
         },
         {
           "label": "Types diagnostiques",
@@ -118,7 +118,7 @@
           "total": 490,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:11:07",
           "ended_at_human": null
         },
         {
@@ -252,7 +252,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 0,
+      "migrated": 50,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
