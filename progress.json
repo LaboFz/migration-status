@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:11:48",
+  "updated_at": "2026-09-19 23:12:03",
   "overall_percent": 0.0,
-  "overall_migrated": 655,
+  "overall_migrated": 813,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,7 +57,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 10.9,
+      "percent": 13.5,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -163,53 +163,53 @@
         },
         {
           "label": "Mutuelles",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 28,
           "total": 28,
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-19 23:11:47",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:11:49"
         },
         {
           "label": "Moyens de paiement",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 3,
           "total": 3,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:49",
+          "ended_at_human": "2026-09-19 23:11:49"
         },
         {
           "label": "Organes",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 49,
           "total": 49,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:49",
+          "ended_at_human": "2026-09-19 23:11:53"
         },
         {
           "label": "Remises",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 14,
           "total": 14,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:53",
+          "ended_at_human": "2026-09-19 23:11:54"
         },
         {
           "label": "Cotations",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 64,
           "total": 64,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:54",
+          "ended_at_human": "2026-09-19 23:11:59"
         },
         {
           "label": "Prélèvements",
@@ -218,7 +218,7 @@
           "total": 797,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:11:59",
           "ended_at_human": null
         },
         {
@@ -252,7 +252,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 654,
+      "migrated": 812,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
