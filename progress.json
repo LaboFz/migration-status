@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:30:17",
+  "updated_at": "2026-09-20 00:30:36",
   "overall_percent": 41.6,
-  "overall_migrated": 686695,
+  "overall_migrated": 686717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -843,8 +843,8 @@
         },
         {
           "label": "Transitions du circuit",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 22,
           "total": 22,
           "note": null,
           "chunks": null,
@@ -872,7 +872,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 21,
+      "migrated": 43,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
