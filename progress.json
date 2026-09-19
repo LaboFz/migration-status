@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:12:48",
-  "overall_percent": 0.0,
-  "overall_migrated": 813,
+  "updated_at": "2026-09-19 23:13:03",
+  "overall_percent": 0.1,
+  "overall_migrated": 1734,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,7 +57,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 13.5,
+      "percent": 28.9,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -213,8 +213,8 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 797,
           "total": 797,
           "note": null,
           "chunks": null,
@@ -223,13 +223,13 @@
         },
         {
           "label": "Donneurs d'ordre",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 124,
           "total": 124,
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-19 23:12:48",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:12:56"
         },
         {
           "label": "Modèles de compte-rendu",
@@ -238,7 +238,7 @@
           "total": 2104,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:12:57",
           "ended_at_human": null
         },
         {
@@ -252,7 +252,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 812,
+      "migrated": 1733,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
