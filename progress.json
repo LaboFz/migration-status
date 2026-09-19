@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:57:51",
-  "overall_percent": 59.2,
-  "overall_migrated": 977717,
+  "updated_at": "2026-09-20 00:58:06",
+  "overall_percent": 59.3,
+  "overall_migrated": 979717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 30.1,
+      "percent": 30.3,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,8 +853,8 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 30.4,
-          "migrated": 291000,
+          "percent": 30.6,
+          "migrated": 293000,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
@@ -863,11 +863,11 @@
               "complete": false
             },
             {
-              "percent": 28.3,
+              "percent": 28.8,
               "complete": false
             },
             {
-              "percent": 27.9,
+              "percent": 28.4,
               "complete": false
             },
             {
@@ -879,7 +879,7 @@
               "complete": false
             },
             {
-              "percent": 26.8,
+              "percent": 27.3,
               "complete": false
             },
             {
@@ -891,7 +891,7 @@
               "complete": false
             },
             {
-              "percent": 28.7,
+              "percent": 29.3,
               "complete": false
             },
             {
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 291043,
+      "migrated": 293043,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
