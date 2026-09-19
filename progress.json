@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20 00:29:31",
-  "overall_percent": 39.4,
-  "overall_migrated": 683975,
-  "overall_total": 1735716,
+  "updated_at": "2026-09-20 00:30:17",
+  "overall_percent": 41.6,
+  "overall_migrated": 686695,
+  "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
   "phases": [
@@ -640,9 +640,9 @@
     },
     {
       "label": "Facturation",
-      "percent": 95.6,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Factures",
@@ -748,52 +748,93 @@
         },
         {
           "label": "Montants (correctif)",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 2650,
           "total": 2650,
           "note": null,
-          "chunks": null,
+          "chunks": [
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            }
+          ],
           "started_at_human": "2026-09-20 00:29:30",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-20 00:29:48"
         }
       ],
-      "migrated": 57856,
+      "migrated": 60506,
       "total": 60506,
       "started_at_human": "2026-09-20 00:23:54",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-20 00:29:48"
     },
     {
       "label": "Utilisateurs",
-      "percent": 0.0,
+      "percent": 100.0,
       "attention": false,
-      "status": "not_started",
+      "status": "done",
       "substeps": [
         {
           "label": "Comptes utilisateurs",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 49,
           "total": 49,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-20 00:29:48",
+          "ended_at_human": "2026-09-20 00:29:57"
         }
       ],
-      "migrated": 0,
+      "migrated": 49,
       "total": 49,
-      "started_at_human": null,
-      "ended_at_human": null
+      "started_at_human": "2026-09-20 00:29:48",
+      "ended_at_human": "2026-09-20 00:29:57"
     },
     {
       "label": "Circuit de traitement",
       "percent": 0.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": [
         {
           "label": "États du circuit",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 21,
           "total": 21,
           "note": null,
           "chunks": null,
@@ -814,8 +855,8 @@
           "label": "Historique des dossiers",
           "percent": 0.0,
           "migrated": 0,
-          "total": 1040473,
-          "note": null,
+          "total": 957822,
+          "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": null,
           "started_at_human": null,
           "ended_at_human": null
@@ -824,16 +865,16 @@
           "label": "Historique des factures",
           "percent": 0.0,
           "migrated": 0,
-          "total": 8526,
-          "note": null,
+          "total": 7867,
+          "note": "489 orphelines + 0 état(s) non reconnu(s) + 170 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": null,
           "started_at_human": null,
           "ended_at_human": null
         }
       ],
-      "migrated": 0,
-      "total": 1049042,
-      "started_at_human": null,
+      "migrated": 21,
+      "total": 965732,
+      "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
     }
   ],
