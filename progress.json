@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:41:03",
-  "overall_percent": 11.6,
-  "overall_migrated": 201756,
+  "updated_at": "2026-09-19 23:41:18",
+  "overall_percent": 11.8,
+  "overall_migrated": 204756,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 41.2,
+      "percent": 41.8,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -367,8 +367,8 @@
         },
         {
           "label": "Colorations",
-          "percent": 69.7,
-          "migrated": 32000,
+          "percent": 76.3,
+          "migrated": 35000,
           "total": 45889,
           "note": null,
           "chunks": [
@@ -377,19 +377,19 @@
               "complete": false
             },
             {
-              "percent": 61.9,
+              "percent": 72.5,
               "complete": false
             },
             {
-              "percent": 54.0,
+              "percent": 66.8,
               "complete": false
             },
             {
-              "percent": 65.6,
+              "percent": 76.4,
               "complete": false
             },
             {
-              "percent": 66.5,
+              "percent": 77.1,
               "complete": false
             },
             {
@@ -401,15 +401,15 @@
               "complete": false
             },
             {
-              "percent": 70.3,
+              "percent": 79.1,
               "complete": false
             },
             {
-              "percent": 62.8,
+              "percent": 74.3,
               "complete": false
             },
             {
-              "percent": 16.5,
+              "percent": 19.0,
               "complete": false
             }
           ],
@@ -447,7 +447,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 195759,
+      "migrated": 198759,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
