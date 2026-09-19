@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:13:16",
-  "overall_percent": 29.5,
-  "overall_migrated": 511334,
+  "updated_at": "2026-09-20 00:13:31",
+  "overall_percent": 29.6,
+  "overall_migrated": 512334,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -577,14 +577,14 @@
     },
     {
       "label": "Caisse",
-      "percent": 20.7,
+      "percent": 21.4,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Mouvements de caisse",
-          "percent": 20.7,
-          "migrated": 30000,
+          "percent": 21.4,
+          "migrated": 31000,
           "total": 144785,
           "note": null,
           "chunks": [
@@ -617,11 +617,11 @@
               "complete": false
             },
             {
-              "percent": 21.4,
+              "percent": 25.0,
               "complete": false
             },
             {
-              "percent": 21.1,
+              "percent": 24.3,
               "complete": false
             },
             {
@@ -633,7 +633,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 30000,
+      "migrated": 31000,
       "total": 144785,
       "started_at_human": "2026-09-20 00:10:10",
       "ended_at_human": null
