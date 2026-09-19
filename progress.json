@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:18:31",
-  "overall_percent": 32.8,
-  "overall_migrated": 567834,
+  "updated_at": "2026-09-20 00:18:46",
+  "overall_percent": 33.0,
+  "overall_migrated": 571334,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -577,19 +577,19 @@
     },
     {
       "label": "Caisse",
-      "percent": 59.7,
+      "percent": 62.2,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Mouvements de caisse",
-          "percent": 59.7,
-          "migrated": 86500,
+          "percent": 62.2,
+          "migrated": 90000,
           "total": 144785,
           "note": null,
           "chunks": [
             {
-              "percent": 60.1,
+              "percent": 63.3,
               "complete": false
             },
             {
@@ -597,23 +597,23 @@
               "complete": false
             },
             {
-              "percent": 55.5,
+              "percent": 58.6,
               "complete": false
             },
             {
-              "percent": 62.5,
+              "percent": 65.7,
               "complete": false
             },
             {
-              "percent": 54.8,
+              "percent": 59.3,
               "complete": false
             },
             {
-              "percent": 58.7,
+              "percent": 61.8,
               "complete": false
             },
             {
-              "percent": 62.3,
+              "percent": 65.8,
               "complete": false
             },
             {
@@ -625,7 +625,7 @@
               "complete": false
             },
             {
-              "percent": 59.4,
+              "percent": 62.4,
               "complete": false
             }
           ],
@@ -633,7 +633,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 86500,
+      "migrated": 90000,
       "total": 144785,
       "started_at_human": "2026-09-20 00:10:10",
       "ended_at_human": null
