@@ -1,923 +1,472 @@
 {
-  "updated_at": "2026-09-15 20:10:29",
-  "overall_percent": 100.0,
-  "overall_migrated": 1659040,
-  "overall_total": 1659040,
-  "run_started_at_human": "2026-09-13 00:58:28",
-  "run_ended_at_human": "2026-09-13 03:42:44",
+  "updated_at": "2026-09-19 22:48:08",
+  "overall_percent": 0.0,
+  "overall_migrated": 0,
+  "overall_total": 1731514,
+  "run_started_at_human": null,
+  "run_ended_at_human": null,
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
+      "status": "in_progress",
       "substeps": [
         {
           "label": "Instance de base de données démarrée",
-          "done": true,
-          "at_human": "Appliqué le 2026-09-13 00:35:15"
+          "done": false,
+          "at_human": null
         },
         {
           "label": "Sauvegarde récupérée",
-          "done": true,
-          "at_human": "Appliqué le 2026-09-13 00:49:12"
+          "done": false,
+          "at_human": null
         },
         {
           "label": "Sauvegarde importée",
-          "done": true,
-          "at_human": "Appliqué le 2026-09-13 00:52:48"
+          "done": false,
+          "at_human": null
         },
         {
           "label": "Environnement réinitialisé",
-          "done": true,
-          "at_human": "Appliqué le 2026-09-13 00:53:47"
+          "done": false,
+          "at_human": null
         }
       ],
       "migrated": 0,
       "total": 0,
-      "started_at_human": "2026-09-13 00:35:10",
-      "ended_at_human": "2026-09-13 00:53:47"
+      "started_at_human": "2026-09-19 22:48:05",
+      "ended_at_human": null
     },
     {
       "label": "Corrections préalables",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
-      "substeps": null,
-      "migrated": 1,
+      "status": "not_started",
+      "substeps": [
+        {
+          "label": "Corrections des données de référence",
+          "done": false,
+          "at_human": null
+        }
+      ],
+      "migrated": 0,
       "total": 1,
-      "started_at_human": "2026-09-13 00:58:28",
-      "ended_at_human": "2026-09-13 01:00:09"
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Données de référence",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
+      "status": "not_started",
       "substeps": [
         {
           "label": "Sexe",
-          "percent": 100.0,
-          "migrated": 2,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 2,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:29",
-          "ended_at_human": "2026-09-13 01:20:30"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Civilités",
-          "percent": 100.0,
-          "migrated": 5,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 5,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:30",
-          "ended_at_human": "2026-09-13 01:20:30"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Villes",
-          "percent": 100.0,
-          "migrated": 17,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 17,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:30",
-          "ended_at_human": "2026-09-13 01:20:31"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Colorations spéciales",
-          "percent": 100.0,
-          "migrated": 15,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 15,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:31",
-          "ended_at_human": "2026-09-13 01:20:31"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Types d'examen",
-          "percent": 100.0,
-          "migrated": 11,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 11,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:31",
-          "ended_at_human": "2026-09-13 01:20:31"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Types diagnostiques",
-          "percent": 100.0,
-          "migrated": 490,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 490,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:31",
-          "ended_at_human": "2026-09-13 01:20:32"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Spécialités",
-          "percent": 100.0,
-          "migrated": 32,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 32,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:32",
-          "ended_at_human": "2026-09-13 01:20:32"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Rubriques de dépense",
-          "percent": 100.0,
-          "migrated": 52,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 52,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:32",
-          "ended_at_human": "2026-09-13 01:20:33"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Professions",
-          "percent": 100.0,
-          "migrated": 21,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 21,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:33",
-          "ended_at_human": "2026-09-13 01:20:33"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Natures de donneur d'ordre",
-          "percent": 100.0,
-          "migrated": 9,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 9,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:33",
-          "ended_at_human": "2026-09-13 01:20:33"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Mutuelles",
-          "percent": 100.0,
-          "migrated": 28,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 28,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:33",
-          "ended_at_human": "2026-09-13 01:20:34"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Moyens de paiement",
-          "percent": 100.0,
-          "migrated": 3,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 3,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:34",
-          "ended_at_human": "2026-09-13 01:20:34"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Organes",
-          "percent": 100.0,
-          "migrated": 49,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 49,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:34",
-          "ended_at_human": "2026-09-13 01:20:34"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Remises",
-          "percent": 100.0,
-          "migrated": 14,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 14,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:34",
-          "ended_at_human": "2026-09-13 01:20:35"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Cotations",
-          "percent": 100.0,
-          "migrated": 64,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 64,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:35",
-          "ended_at_human": "2026-09-13 01:20:35"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Prélèvements",
-          "percent": 100.0,
-          "migrated": 797,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 797,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:35",
-          "ended_at_human": "2026-09-13 01:20:36"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Donneurs d'ordre",
-          "percent": 100.0,
-          "migrated": 123,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 123,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:36",
-          "ended_at_human": "2026-09-13 01:20:36"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Modèles de compte-rendu",
-          "percent": 100.0,
-          "migrated": 2104,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 2104,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:36",
-          "ended_at_human": "2026-09-13 01:20:40"
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Médecins",
-          "percent": 100.0,
-          "migrated": 2159,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 2159,
           "note": null,
           "chunks": null,
-          "started_at_human": "2026-09-13 01:20:40",
-          "ended_at_human": "2026-09-13 01:22:19"
+          "started_at_human": null,
+          "ended_at_human": null
         }
       ],
-      "migrated": 5995,
+      "migrated": 0,
       "total": 5995,
-      "started_at_human": "2026-09-13 01:00:09",
-      "ended_at_human": "2026-09-13 01:22:30"
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Dossiers",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
+      "status": "not_started",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 100.0,
-          "migrated": 124618,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 124618,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 01:22:30",
-          "ended_at_human": "2026-09-13 01:37:23"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Anticorps",
-          "percent": 100.0,
-          "migrated": 38672,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 38672,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 01:37:23",
-          "ended_at_human": "2026-09-13 01:40:31"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Colorations",
-          "percent": 100.0,
-          "migrated": 45889,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 45889,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 01:40:31",
-          "ended_at_human": "2026-09-13 01:44:22"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Cotations",
-          "percent": 100.0,
-          "migrated": 126319,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 126319,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 01:44:22",
-          "ended_at_human": "2026-09-13 01:54:34"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Organes",
-          "percent": 100.0,
-          "migrated": 6352,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 6352,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 01:54:34",
-          "ended_at_human": "2026-09-13 01:55:08"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Prélèvements",
-          "percent": 100.0,
-          "migrated": 132324,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 132324,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 01:55:08",
-          "ended_at_human": "2026-09-13 02:05:36"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         }
       ],
-      "migrated": 474174,
+      "migrated": 0,
       "total": 474174,
-      "started_at_human": "2026-09-13 01:22:30",
-      "ended_at_human": "2026-09-13 02:05:36"
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Caisse",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
-      "substeps": null,
-      "migrated": 144392,
+      "status": "not_started",
+      "substeps": [
+        {
+          "label": "Mouvements de caisse",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 144392,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        }
+      ],
+      "migrated": 0,
       "total": 144392,
-      "started_at_human": "2026-09-13 02:05:36",
-      "ended_at_human": "2026-09-13 02:17:07"
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Facturation",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
+      "status": "not_started",
       "substeps": [
         {
           "label": "Factures",
-          "percent": 100.0,
-          "migrated": 2650,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 2650,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 02:17:07",
-          "ended_at_human": "2026-09-13 02:17:24"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Lignes de facture",
-          "percent": 100.0,
-          "migrated": 55206,
+          "percent": 0.0,
+          "migrated": 0,
           "total": 55206,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 02:17:24",
-          "ended_at_human": "2026-09-13 02:21:49"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         },
         {
           "label": "Montants (correctif)",
-          "percent": 100.0,
-          "migrated": 2650,
-          "total": 2650,
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 2654,
           "note": null,
-          "chunks": [
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            },
-            {
-              "percent": 100.0,
-              "complete": true
-            }
-          ],
-          "started_at_human": "2026-09-13 02:21:49",
-          "ended_at_human": "2026-09-13 02:22:05"
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
         }
       ],
-      "migrated": 60506,
-      "total": 60506,
-      "started_at_human": "2026-09-13 02:17:07",
-      "ended_at_human": "2026-09-13 02:22:05"
+      "migrated": 0,
+      "total": 60510,
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Utilisateurs",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
-      "substeps": null,
-      "migrated": 48,
-      "total": 48,
-      "started_at_human": "2026-09-13 02:22:05",
-      "ended_at_human": "2026-09-13 02:22:11"
+      "status": "not_started",
+      "substeps": [
+        {
+          "label": "Comptes utilisateurs",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 49,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        }
+      ],
+      "migrated": 0,
+      "total": 49,
+      "started_at_human": null,
+      "ended_at_human": null
     },
     {
       "label": "Circuit de traitement",
-      "percent": 100.0,
+      "percent": 0.0,
       "attention": false,
-      "status": "done",
-      "substeps": null,
-      "migrated": 973924,
-      "total": 973924,
-      "started_at_human": "2026-09-13 02:22:11",
-      "ended_at_human": "2026-09-13 03:42:44"
+      "status": "not_started",
+      "substeps": [
+        {
+          "label": "États du circuit",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 21,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Transitions du circuit",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 22,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Historique des dossiers",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 1037824,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        },
+        {
+          "label": "Historique des factures",
+          "percent": 0.0,
+          "migrated": 0,
+          "total": 8526,
+          "note": null,
+          "chunks": null,
+          "started_at_human": null,
+          "ended_at_human": null
+        }
+      ],
+      "migrated": 0,
+      "total": 1046393,
+      "started_at_human": null,
+      "ended_at_human": null
     }
   ],
-  "incidents": [
-    {
-      "at_human": "2026-09-15 17:35:34",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:34:24",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:31:37",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:28:34",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:28:02",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:26:53",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:22:44",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:22:38",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:20:09",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:19:04",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:17:03",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:16:34",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:14:49",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:11:01",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:06:32",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:05:03",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:04:23",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:03:05",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:02:14",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:01:56",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 17:01:17",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:57:57",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:54:47",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:51:27",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:48:41",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:48:34",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:45:08",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:44:48",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:41:50",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    },
-    {
-      "at_human": "2026-09-15 16:41:17",
-      "severity": "retry",
-      "message": "Coupure réseau — reprise automatique en cours"
-    }
-  ]
+  "incidents": []
 }
