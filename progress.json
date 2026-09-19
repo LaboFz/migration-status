@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:15:03",
+  "updated_at": "2026-09-19 23:15:18",
   "overall_percent": 0.2,
-  "overall_migrated": 3634,
+  "overall_migrated": 3838,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,7 +57,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 60.6,
+      "percent": 64.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -233,13 +233,13 @@
         },
         {
           "label": "Modèles de compte-rendu",
-          "percent": 90.3,
-          "migrated": 1900,
+          "percent": 100.0,
+          "migrated": 2104,
           "total": 2104,
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-19 23:12:57",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:15:13"
         },
         {
           "label": "Médecins",
@@ -248,11 +248,11 @@
           "total": 2159,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:15:13",
           "ended_at_human": null
         }
       ],
-      "migrated": 3633,
+      "migrated": 3837,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
