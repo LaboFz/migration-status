@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:32:18",
-  "overall_percent": 6.8,
-  "overall_migrated": 117497,
+  "updated_at": "2026-09-19 23:32:33",
+  "overall_percent": 6.9,
+  "overall_migrated": 119497,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,19 +259,19 @@
     },
     {
       "label": "Dossiers",
-      "percent": 23.5,
+      "percent": 23.9,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 89.2,
-          "migrated": 111500,
+          "percent": 90.8,
+          "migrated": 113500,
           "total": 124938,
           "note": null,
           "chunks": [
             {
-              "percent": 88.4,
+              "percent": 92.1,
               "complete": false
             },
             {
@@ -283,7 +283,7 @@
               "complete": false
             },
             {
-              "percent": 87.1,
+              "percent": 91.6,
               "complete": false
             },
             {
@@ -295,7 +295,7 @@
               "complete": false
             },
             {
-              "percent": 84.6,
+              "percent": 88.5,
               "complete": false
             },
             {
@@ -307,7 +307,7 @@
               "complete": false
             },
             {
-              "percent": 87.3,
+              "percent": 92.0,
               "complete": false
             }
           ],
@@ -365,7 +365,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 111500,
+      "migrated": 113500,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
