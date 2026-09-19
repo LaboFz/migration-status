@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:14:48",
+  "updated_at": "2026-09-19 23:15:03",
   "overall_percent": 0.2,
-  "overall_migrated": 3434,
+  "overall_migrated": 3634,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,7 +57,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 57.3,
+      "percent": 60.6,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -233,8 +233,8 @@
         },
         {
           "label": "Modèles de compte-rendu",
-          "percent": 80.8,
-          "migrated": 1700,
+          "percent": 90.3,
+          "migrated": 1900,
           "total": 2104,
           "note": null,
           "chunks": null,
@@ -252,7 +252,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 3433,
+      "migrated": 3633,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
