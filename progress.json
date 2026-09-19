@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:34:03",
-  "overall_percent": 7.6,
-  "overall_migrated": 130935,
+  "updated_at": "2026-09-19 23:34:33",
+  "overall_percent": 7.8,
+  "overall_migrated": 135935,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 26.3,
+      "percent": 27.3,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -316,11 +316,52 @@
         },
         {
           "label": "Anticorps",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 12.9,
+          "migrated": 5000,
           "total": 38821,
           "note": null,
-          "chunks": null,
+          "chunks": [
+            {
+              "percent": 15.9,
+              "complete": false
+            },
+            {
+              "percent": 11.7,
+              "complete": false
+            },
+            {
+              "percent": 11.7,
+              "complete": false
+            },
+            {
+              "percent": 9.7,
+              "complete": false
+            },
+            {
+              "percent": 8.4,
+              "complete": false
+            },
+            {
+              "percent": 11.7,
+              "complete": false
+            },
+            {
+              "percent": 9.3,
+              "complete": false
+            },
+            {
+              "percent": 15.6,
+              "complete": false
+            },
+            {
+              "percent": 12.1,
+              "complete": false
+            },
+            {
+              "percent": 8.2,
+              "complete": false
+            }
+          ],
           "started_at_human": "2026-09-19 23:33:55",
           "ended_at_human": null
         },
@@ -365,7 +406,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 124938,
+      "migrated": 129938,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
