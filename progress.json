@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:12:46",
-  "overall_percent": 29.2,
-  "overall_migrated": 506334,
+  "updated_at": "2026-09-20 00:13:16",
+  "overall_percent": 29.5,
+  "overall_migrated": 511334,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -577,55 +577,55 @@
     },
     {
       "label": "Caisse",
-      "percent": 17.3,
+      "percent": 20.7,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Mouvements de caisse",
-          "percent": 17.3,
-          "migrated": 25000,
+          "percent": 20.7,
+          "migrated": 30000,
           "total": 144785,
           "note": null,
           "chunks": [
             {
+              "percent": 23.3,
+              "complete": false
+            },
+            {
+              "percent": 22.4,
+              "complete": false
+            },
+            {
+              "percent": 19.6,
+              "complete": false
+            },
+            {
+              "percent": 23.4,
+              "complete": false
+            },
+            {
+              "percent": 14.1,
+              "complete": false
+            },
+            {
+              "percent": 20.0,
+              "complete": false
+            },
+            {
+              "percent": 21.4,
+              "complete": false
+            },
+            {
+              "percent": 21.4,
+              "complete": false
+            },
+            {
+              "percent": 21.1,
+              "complete": false
+            },
+            {
               "percent": 19.9,
-              "complete": false
-            },
-            {
-              "percent": 18.8,
-              "complete": false
-            },
-            {
-              "percent": 16.4,
-              "complete": false
-            },
-            {
-              "percent": 16.0,
-              "complete": false
-            },
-            {
-              "percent": 11.5,
-              "complete": false
-            },
-            {
-              "percent": 16.2,
-              "complete": false
-            },
-            {
-              "percent": 17.6,
-              "complete": false
-            },
-            {
-              "percent": 17.7,
-              "complete": false
-            },
-            {
-              "percent": 17.4,
-              "complete": false
-            },
-            {
-              "percent": 16.5,
               "complete": false
             }
           ],
@@ -633,7 +633,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 25000,
+      "migrated": 30000,
       "total": 144785,
       "started_at_human": "2026-09-20 00:10:10",
       "ended_at_human": null
