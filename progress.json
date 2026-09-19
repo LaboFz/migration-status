@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:03:46",
-  "overall_percent": 23.9,
-  "overall_migrated": 413650,
+  "updated_at": "2026-09-20 00:04:01",
+  "overall_percent": 24.0,
+  "overall_migrated": 416650,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 85.8,
+      "percent": 86.4,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -520,8 +520,8 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 49.0,
-          "migrated": 65000,
+          "percent": 51.2,
+          "migrated": 68000,
           "total": 132684,
           "note": null,
           "chunks": [
@@ -530,7 +530,7 @@
               "complete": false
             },
             {
-              "percent": 50.2,
+              "percent": 53.7,
               "complete": false
             },
             {
@@ -538,7 +538,7 @@
               "complete": false
             },
             {
-              "percent": 50.1,
+              "percent": 53.5,
               "complete": false
             },
             {
@@ -546,7 +546,7 @@
               "complete": false
             },
             {
-              "percent": 48.6,
+              "percent": 52.4,
               "complete": false
             },
             {
@@ -554,15 +554,15 @@
               "complete": false
             },
             {
-              "percent": 48.7,
+              "percent": 52.2,
               "complete": false
             },
             {
-              "percent": 49.1,
+              "percent": 53.0,
               "complete": false
             },
             {
-              "percent": 51.4,
+              "percent": 55.2,
               "complete": false
             }
           ],
@@ -570,7 +570,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 407653,
+      "migrated": 410653,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
