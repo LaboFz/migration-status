@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:00:16",
+  "updated_at": "2026-09-20 00:00:31",
   "overall_percent": 21.8,
-  "overall_migrated": 378150,
+  "overall_migrated": 378650,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 78.3,
+      "percent": 78.4,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -520,13 +520,13 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 22.2,
-          "migrated": 29500,
+          "percent": 22.6,
+          "migrated": 30000,
           "total": 132684,
           "note": null,
           "chunks": [
             {
-              "percent": 21.0,
+              "percent": 24.6,
               "complete": false
             },
             {
@@ -570,7 +570,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 372153,
+      "migrated": 372653,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
