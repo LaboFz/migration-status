@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:49:03",
-  "overall_percent": 16.2,
-  "overall_migrated": 281145,
+  "updated_at": "2026-09-19 23:49:18",
+  "overall_percent": 16.5,
+  "overall_migrated": 285145,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 57.9,
+      "percent": 58.7,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -418,41 +418,41 @@
         },
         {
           "label": "Cotations",
-          "percent": 51.7,
-          "migrated": 65500,
+          "percent": 54.9,
+          "migrated": 69500,
           "total": 126653,
           "note": null,
           "chunks": [
             {
-              "percent": 49.2,
+              "percent": 52.9,
               "complete": false
             },
             {
-              "percent": 52.8,
+              "percent": 56.5,
               "complete": false
             },
             {
-              "percent": 50.9,
+              "percent": 54.8,
               "complete": false
             },
             {
-              "percent": 46.3,
+              "percent": 54.2,
               "complete": false
             },
             {
-              "percent": 46.9,
+              "percent": 52.9,
               "complete": false
             },
             {
-              "percent": 50.8,
+              "percent": 54.1,
               "complete": false
             },
             {
-              "percent": 52.8,
+              "percent": 56.6,
               "complete": false
             },
             {
-              "percent": 55.9,
+              "percent": 59.9,
               "complete": false
             },
             {
@@ -488,7 +488,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 275148,
+      "migrated": 279148,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
