@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:42:06",
-  "overall_percent": 49.2,
-  "overall_migrated": 812717,
+  "updated_at": "2026-09-20 00:42:21",
+  "overall_percent": 49.3,
+  "overall_migrated": 814217,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 13.1,
+      "percent": 13.2,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,8 +853,8 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 13.2,
-          "migrated": 126000,
+          "percent": 13.3,
+          "migrated": 127500,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
@@ -867,7 +867,7 @@
               "complete": false
             },
             {
-              "percent": 12.0,
+              "percent": 12.5,
               "complete": false
             },
             {
@@ -875,7 +875,7 @@
               "complete": false
             },
             {
-              "percent": 12.3,
+              "percent": 12.8,
               "complete": false
             },
             {
@@ -887,7 +887,7 @@
               "complete": false
             },
             {
-              "percent": 12.6,
+              "percent": 13.1,
               "complete": false
             },
             {
@@ -913,13 +913,18 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 126043,
+      "migrated": 127543,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
     }
   ],
   "incidents": [
+    {
+      "at_human": "2026-09-20 00:42:07",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
     {
       "at_human": "2026-09-19 23:51:20",
       "severity": "retry",
