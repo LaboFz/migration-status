@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:57:36",
-  "overall_percent": 59.0,
-  "overall_migrated": 975217,
+  "updated_at": "2026-09-20 00:57:51",
+  "overall_percent": 59.2,
+  "overall_migrated": 977717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 29.9,
+      "percent": 30.1,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,8 +853,8 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 30.1,
-          "migrated": 288500,
+          "percent": 30.4,
+          "migrated": 291000,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
@@ -871,11 +871,11 @@
               "complete": false
             },
             {
-              "percent": 26.6,
+              "percent": 27.0,
               "complete": false
             },
             {
-              "percent": 31.5,
+              "percent": 32.3,
               "complete": false
             },
             {
@@ -883,11 +883,11 @@
               "complete": false
             },
             {
-              "percent": 28.5,
+              "percent": 29.1,
               "complete": false
             },
             {
-              "percent": 28.4,
+              "percent": 28.9,
               "complete": false
             },
             {
@@ -895,7 +895,7 @@
               "complete": false
             },
             {
-              "percent": 37.1,
+              "percent": 37.8,
               "complete": false
             }
           ],
@@ -913,13 +913,18 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 288543,
+      "migrated": 291043,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
     }
   ],
   "incidents": [
+    {
+      "at_human": "2026-09-20 00:57:49",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
     {
       "at_human": "2026-09-20 00:53:43",
       "severity": "retry",
