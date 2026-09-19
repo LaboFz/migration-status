@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:23:46",
-  "overall_percent": 36.0,
-  "overall_migrated": 624682,
+  "updated_at": "2026-09-20 00:24:01",
+  "overall_percent": 36.1,
+  "overall_migrated": 626119,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -577,20 +577,24 @@
     },
     {
       "label": "Caisse",
-      "percent": 99.0,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Mouvements de caisse",
-          "percent": 99.0,
-          "migrated": 143348,
+          "percent": 100.0,
+          "migrated": 144785,
           "total": 144785,
           "note": null,
           "chunks": [
             {
-              "percent": 97.0,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -601,16 +605,12 @@
               "complete": true
             },
             {
-              "percent": 98.0,
-              "complete": false
-            },
-            {
               "percent": 100.0,
               "complete": true
             },
             {
-              "percent": 96.2,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -630,19 +630,19 @@
             }
           ],
           "started_at_human": "2026-09-20 00:10:10",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-20 00:23:54"
         }
       ],
-      "migrated": 143348,
+      "migrated": 144785,
       "total": 144785,
       "started_at_human": "2026-09-20 00:10:10",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-20 00:23:54"
     },
     {
       "label": "Facturation",
       "percent": 0.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": [
         {
           "label": "Factures",
@@ -651,7 +651,7 @@
           "total": 2650,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-20 00:23:54",
           "ended_at_human": null
         },
         {
@@ -677,7 +677,7 @@
       ],
       "migrated": 0,
       "total": 57856,
-      "started_at_human": null,
+      "started_at_human": "2026-09-20 00:23:54",
       "ended_at_human": null
     },
     {
