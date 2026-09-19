@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:33:48",
-  "overall_percent": 7.5,
-  "overall_migrated": 130441,
+  "updated_at": "2026-09-19 23:34:03",
+  "overall_percent": 7.6,
+  "overall_migrated": 130935,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,14 +259,14 @@
     },
     {
       "label": "Dossiers",
-      "percent": 26.2,
+      "percent": 26.3,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 99.6,
-          "migrated": 124444,
+          "percent": 100.0,
+          "migrated": 124938,
           "total": 124938,
           "note": null,
           "chunks": [
@@ -295,8 +295,8 @@
               "complete": true
             },
             {
-              "percent": 96.4,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -312,7 +312,7 @@
             }
           ],
           "started_at_human": "2026-09-19 23:17:46",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:33:55"
         },
         {
           "label": "Anticorps",
@@ -321,7 +321,7 @@
           "total": 38821,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:33:55",
           "ended_at_human": null
         },
         {
@@ -365,7 +365,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 124444,
+      "migrated": 124938,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
