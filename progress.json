@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:27:18",
-  "overall_percent": 3.7,
-  "overall_migrated": 64497,
+  "updated_at": "2026-09-19 23:27:33",
+  "overall_percent": 3.9,
+  "overall_migrated": 67997,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,14 +259,14 @@
     },
     {
       "label": "Dossiers",
-      "percent": 12.3,
+      "percent": 13.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
-          "percent": 46.8,
-          "migrated": 58500,
+          "percent": 49.6,
+          "migrated": 62000,
           "total": 124938,
           "note": null,
           "chunks": [
@@ -275,11 +275,11 @@
               "complete": false
             },
             {
-              "percent": 49.6,
+              "percent": 53.3,
               "complete": false
             },
             {
-              "percent": 47.8,
+              "percent": 51.7,
               "complete": false
             },
             {
@@ -287,23 +287,23 @@
               "complete": false
             },
             {
-              "percent": 39.4,
+              "percent": 43.3,
               "complete": false
             },
             {
-              "percent": 47.2,
+              "percent": 50.7,
               "complete": false
             },
             {
-              "percent": 45.4,
+              "percent": 49.7,
               "complete": false
             },
             {
-              "percent": 48.3,
+              "percent": 52.5,
               "complete": false
             },
             {
-              "percent": 45.5,
+              "percent": 49.7,
               "complete": false
             },
             {
@@ -365,7 +365,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 58500,
+      "migrated": 62000,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
