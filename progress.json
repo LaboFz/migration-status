@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:55:46",
+  "updated_at": "2026-09-19 23:56:01",
   "overall_percent": 19.7,
-  "overall_migrated": 341466,
+  "overall_migrated": 341632,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -418,8 +418,8 @@
         },
         {
           "label": "Cotations",
-          "percent": 99.3,
-          "migrated": 125821,
+          "percent": 99.5,
+          "migrated": 125987,
           "total": 126653,
           "note": null,
           "chunks": [
@@ -448,8 +448,8 @@
               "complete": true
             },
             {
-              "percent": 98.6,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -488,7 +488,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 335469,
+      "migrated": 335635,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
