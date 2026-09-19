@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:11:19",
+  "updated_at": "2026-09-19 23:11:48",
   "overall_percent": 0.0,
-  "overall_migrated": 51,
+  "overall_migrated": 655,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,7 +57,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 0.8,
+      "percent": 10.9,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -113,53 +113,53 @@
         },
         {
           "label": "Types diagnostiques",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 490,
           "total": 490,
           "note": null,
           "chunks": null,
           "started_at_human": "2026-09-19 23:11:07",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:11:38"
         },
         {
           "label": "Spécialités",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 32,
           "total": 32,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:38",
+          "ended_at_human": "2026-09-19 23:11:40"
         },
         {
           "label": "Rubriques de dépense",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 52,
           "total": 52,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:40",
+          "ended_at_human": "2026-09-19 23:11:44"
         },
         {
           "label": "Professions",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 21,
           "total": 21,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:44",
+          "ended_at_human": "2026-09-19 23:11:46"
         },
         {
           "label": "Natures de donneur d'ordre",
-          "percent": 0.0,
-          "migrated": 0,
+          "percent": 100.0,
+          "migrated": 9,
           "total": 9,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:46",
+          "ended_at_human": "2026-09-19 23:11:47"
         },
         {
           "label": "Mutuelles",
@@ -168,7 +168,7 @@
           "total": 28,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:11:47",
           "ended_at_human": null
         },
         {
@@ -252,7 +252,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 50,
+      "migrated": 654,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
