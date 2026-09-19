@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-19 23:08:04",
+  "updated_at": "2026-09-19 23:08:34",
   "overall_percent": 0.0,
   "overall_migrated": 0,
-  "overall_total": 1734163,
+  "overall_total": 1733188,
   "run_started_at_human": null,
   "run_ended_at_human": null,
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 75.0,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Instance de base de données démarrée",
@@ -29,14 +29,14 @@
         },
         {
           "label": "Environnement réinitialisé",
-          "done": false,
-          "at_human": null
+          "done": true,
+          "at_human": "Appliqué le 2026-09-19 23:08:21"
         }
       ],
       "migrated": 0,
       "total": 0,
       "started_at_human": "2026-09-19 22:48:05",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-19 23:08:21"
     },
     {
       "label": "Corrections préalables",
@@ -95,7 +95,7 @@
           "label": "Colorations spéciales",
           "percent": 0.0,
           "migrated": 0,
-          "total": 15,
+          "total": 16,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -115,7 +115,7 @@
           "label": "Types diagnostiques",
           "percent": 0.0,
           "migrated": 0,
-          "total": 490,
+          "total": 497,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -125,7 +125,7 @@
           "label": "Spécialités",
           "percent": 0.0,
           "migrated": 0,
-          "total": 32,
+          "total": 33,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -135,7 +135,7 @@
           "label": "Rubriques de dépense",
           "percent": 0.0,
           "migrated": 0,
-          "total": 52,
+          "total": 53,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -215,7 +215,7 @@
           "label": "Prélèvements",
           "percent": 0.0,
           "migrated": 0,
-          "total": 797,
+          "total": 825,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -225,7 +225,7 @@
           "label": "Donneurs d'ordre",
           "percent": 0.0,
           "migrated": 0,
-          "total": 123,
+          "total": 129,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -245,7 +245,7 @@
           "label": "Médecins",
           "percent": 0.0,
           "migrated": 0,
-          "total": 2159,
+          "total": 2238,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -253,7 +253,7 @@
         }
       ],
       "migrated": 0,
-      "total": 5995,
+      "total": 6118,
       "started_at_human": null,
       "ended_at_human": null
     },
@@ -267,7 +267,7 @@
           "label": "Fiches dossier",
           "percent": 0.0,
           "migrated": 0,
-          "total": 124618,
+          "total": 124938,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -277,7 +277,7 @@
           "label": "Anticorps",
           "percent": 0.0,
           "migrated": 0,
-          "total": 38672,
+          "total": 38821,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -297,7 +297,7 @@
           "label": "Cotations",
           "percent": 0.0,
           "migrated": 0,
-          "total": 126319,
+          "total": 126653,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -317,7 +317,7 @@
           "label": "Prélèvements",
           "percent": 0.0,
           "migrated": 0,
-          "total": 132324,
+          "total": 132684,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -325,7 +325,7 @@
         }
       ],
       "migrated": 0,
-      "total": 474174,
+      "total": 475337,
       "started_at_human": null,
       "ended_at_human": null
     },
@@ -339,7 +339,7 @@
           "label": "Mouvements de caisse",
           "percent": 0.0,
           "migrated": 0,
-          "total": 144392,
+          "total": 144785,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -347,7 +347,7 @@
         }
       ],
       "migrated": 0,
-      "total": 144392,
+      "total": 144785,
       "started_at_human": null,
       "ended_at_human": null
     },
@@ -381,7 +381,7 @@
           "label": "Montants (correctif)",
           "percent": 0.0,
           "migrated": 0,
-          "total": 2654,
+          "total": 0,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -389,7 +389,7 @@
         }
       ],
       "migrated": 0,
-      "total": 60510,
+      "total": 57856,
       "started_at_human": null,
       "ended_at_human": null
     },
