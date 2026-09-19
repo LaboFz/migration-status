@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:15:48",
+  "updated_at": "2026-09-19 23:16:03",
   "overall_percent": 0.3,
-  "overall_migrated": 4338,
+  "overall_migrated": 4538,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -57,7 +57,7 @@
     },
     {
       "label": "Données de référence",
-      "percent": 72.3,
+      "percent": 75.7,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -243,8 +243,8 @@
         },
         {
           "label": "Médecins",
-          "percent": 23.2,
-          "migrated": 500,
+          "percent": 32.4,
+          "migrated": 700,
           "total": 2159,
           "note": null,
           "chunks": null,
@@ -252,7 +252,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 4337,
+      "migrated": 4537,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
