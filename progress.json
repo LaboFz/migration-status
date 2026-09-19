@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:24:46",
-  "overall_percent": 36.3,
-  "overall_migrated": 629269,
+  "updated_at": "2026-09-20 00:25:01",
+  "overall_percent": 36.5,
+  "overall_migrated": 633769,
   "overall_total": 1735716,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -640,7 +640,7 @@
     },
     {
       "label": "Facturation",
-      "percent": 5.2,
+      "percent": 12.6,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -697,13 +697,49 @@
         },
         {
           "label": "Lignes de facture",
-          "percent": 0.9,
-          "migrated": 500,
+          "percent": 9.1,
+          "migrated": 5000,
           "total": 55206,
           "note": null,
           "chunks": [
             {
+              "percent": 11.6,
+              "complete": false
+            },
+            {
+              "percent": 10.7,
+              "complete": false
+            },
+            {
+              "percent": 9.2,
+              "complete": false
+            },
+            {
+              "percent": 8.2,
+              "complete": false
+            },
+            {
               "percent": 7.5,
+              "complete": false
+            },
+            {
+              "percent": 6.2,
+              "complete": false
+            },
+            {
+              "percent": 7.9,
+              "complete": false
+            },
+            {
+              "percent": 10.0,
+              "complete": false
+            },
+            {
+              "percent": 8.6,
+              "complete": false
+            },
+            {
+              "percent": 6.9,
               "complete": false
             }
           ],
@@ -721,7 +757,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 3150,
+      "migrated": 7650,
       "total": 60506,
       "started_at_human": "2026-09-20 00:23:54",
       "ended_at_human": null
