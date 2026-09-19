@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:06:16",
-  "overall_percent": 25.5,
-  "overall_migrated": 441650,
+  "updated_at": "2026-09-20 00:06:31",
+  "overall_percent": 25.7,
+  "overall_migrated": 445150,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 91.7,
+      "percent": 92.4,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -520,8 +520,8 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 70.1,
-          "migrated": 93000,
+          "percent": 72.7,
+          "migrated": 96500,
           "total": 132684,
           "note": null,
           "chunks": [
@@ -530,11 +530,11 @@
               "complete": false
             },
             {
-              "percent": 72.7,
+              "percent": 76.3,
               "complete": false
             },
             {
-              "percent": 67.9,
+              "percent": 71.5,
               "complete": false
             },
             {
@@ -542,15 +542,15 @@
               "complete": false
             },
             {
-              "percent": 66.5,
+              "percent": 70.2,
               "complete": false
             },
             {
-              "percent": 72.6,
+              "percent": 76.7,
               "complete": false
             },
             {
-              "percent": 68.6,
+              "percent": 72.1,
               "complete": false
             },
             {
@@ -558,11 +558,11 @@
               "complete": false
             },
             {
-              "percent": 71.0,
+              "percent": 74.5,
               "complete": false
             },
             {
-              "percent": 73.0,
+              "percent": 76.5,
               "complete": false
             }
           ],
@@ -570,7 +570,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 435653,
+      "migrated": 439153,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
