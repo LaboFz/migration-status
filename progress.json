@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:46:21",
-  "overall_percent": 51.9,
-  "overall_migrated": 857217,
+  "updated_at": "2026-09-20 00:46:36",
+  "overall_percent": 52.0,
+  "overall_migrated": 859717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 17.7,
+      "percent": 17.9,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,17 +853,17 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 17.8,
-          "migrated": 170500,
+          "percent": 18.1,
+          "migrated": 173000,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
             {
-              "percent": 16.7,
+              "percent": 17.2,
               "complete": false
             },
             {
-              "percent": 16.3,
+              "percent": 16.8,
               "complete": false
             },
             {
@@ -875,7 +875,7 @@
               "complete": false
             },
             {
-              "percent": 16.3,
+              "percent": 17.3,
               "complete": false
             },
             {
@@ -891,11 +891,11 @@
               "complete": false
             },
             {
-              "percent": 16.4,
+              "percent": 16.9,
               "complete": false
             },
             {
-              "percent": 21.6,
+              "percent": 22.2,
               "complete": false
             }
           ],
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 170543,
+      "migrated": 173043,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
