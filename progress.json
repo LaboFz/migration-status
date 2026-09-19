@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:10:01",
+  "updated_at": "2026-09-20 00:10:16",
   "overall_percent": 27.8,
-  "overall_migrated": 481065,
+  "overall_migrated": 481334,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,9 +259,9 @@
     },
     {
       "label": "Dossiers",
-      "percent": 99.9,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Fiches dossier",
@@ -520,14 +520,14 @@
         },
         {
           "label": "Prélèvements",
-          "percent": 99.8,
-          "migrated": 132415,
+          "percent": 100.0,
+          "migrated": 132684,
           "total": 132684,
           "note": null,
           "chunks": [
             {
-              "percent": 97.7,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -567,19 +567,19 @@
             }
           ],
           "started_at_human": "2026-09-19 23:57:18",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-20 00:10:06"
         }
       ],
-      "migrated": 475068,
+      "migrated": 475337,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-20 00:10:10"
     },
     {
       "label": "Caisse",
       "percent": 0.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": [
         {
           "label": "Mouvements de caisse",
@@ -588,13 +588,13 @@
           "total": 144785,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-20 00:10:10",
           "ended_at_human": null
         }
       ],
       "migrated": 0,
       "total": 144785,
-      "started_at_human": null,
+      "started_at_human": "2026-09-20 00:10:10",
       "ended_at_human": null
     },
     {
