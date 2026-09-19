@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 23:17:33",
+  "updated_at": "2026-09-19 23:17:48",
   "overall_percent": 0.3,
   "overall_migrated": 5997,
   "overall_total": 1733066,
@@ -59,7 +59,7 @@
       "label": "Données de référence",
       "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Sexe",
@@ -255,13 +255,13 @@
       "migrated": 5996,
       "total": 5996,
       "started_at_human": "2026-09-19 23:11:01",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-19 23:17:46"
     },
     {
       "label": "Dossiers",
       "percent": 0.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": [
         {
           "label": "Fiches dossier",
@@ -270,7 +270,7 @@
           "total": 124938,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:17:46",
           "ended_at_human": null
         },
         {
@@ -326,7 +326,7 @@
       ],
       "migrated": 0,
       "total": 475337,
-      "started_at_human": null,
+      "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
     },
     {
