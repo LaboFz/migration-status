@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:48:06",
-  "overall_percent": 53.0,
-  "overall_migrated": 876217,
+  "updated_at": "2026-09-20 00:48:21",
+  "overall_percent": 53.2,
+  "overall_migrated": 878717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 19.6,
+      "percent": 19.9,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,8 +853,8 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 19.8,
-          "migrated": 189500,
+          "percent": 20.0,
+          "migrated": 192000,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
@@ -863,7 +863,7 @@
               "complete": false
             },
             {
-              "percent": 18.2,
+              "percent": 18.7,
               "complete": false
             },
             {
@@ -875,11 +875,11 @@
               "complete": false
             },
             {
-              "percent": 18.9,
+              "percent": 19.4,
               "complete": false
             },
             {
-              "percent": 17.2,
+              "percent": 17.6,
               "complete": false
             },
             {
@@ -891,11 +891,11 @@
               "complete": false
             },
             {
-              "percent": 18.4,
+              "percent": 18.9,
               "complete": false
             },
             {
-              "percent": 24.2,
+              "percent": 24.8,
               "complete": false
             }
           ],
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 189543,
+      "migrated": 192043,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
