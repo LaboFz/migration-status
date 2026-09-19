@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:46:33",
-  "overall_percent": 14.8,
-  "overall_migrated": 256645,
+  "updated_at": "2026-09-19 23:46:48",
+  "overall_percent": 15.0,
+  "overall_migrated": 260145,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 52.7,
+      "percent": 53.5,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -418,8 +418,8 @@
         },
         {
           "label": "Cotations",
-          "percent": 32.4,
-          "migrated": 41000,
+          "percent": 35.1,
+          "migrated": 44500,
           "total": 126653,
           "note": null,
           "chunks": [
@@ -428,27 +428,27 @@
               "complete": false
             },
             {
-              "percent": 34.0,
+              "percent": 37.6,
               "complete": false
             },
             {
-              "percent": 31.2,
+              "percent": 35.2,
               "complete": false
             },
             {
-              "percent": 23.3,
+              "percent": 27.1,
               "complete": false
             },
             {
-              "percent": 31.4,
+              "percent": 34.6,
               "complete": false
             },
             {
-              "percent": 31.4,
+              "percent": 35.4,
               "complete": false
             },
             {
-              "percent": 31.7,
+              "percent": 35.3,
               "complete": false
             },
             {
@@ -460,7 +460,7 @@
               "complete": false
             },
             {
-              "percent": 32.0,
+              "percent": 37.2,
               "complete": false
             }
           ],
@@ -488,7 +488,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 250648,
+      "migrated": 254148,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
