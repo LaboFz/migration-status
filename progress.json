@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19 23:09:04",
+  "updated_at": "2026-09-19 23:11:06",
   "overall_percent": 0.0,
-  "overall_migrated": 0,
-  "overall_total": 1733188,
+  "overall_migrated": 1,
+  "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
   "phases": [
@@ -40,26 +40,26 @@
     },
     {
       "label": "Corrections préalables",
-      "percent": 0.0,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "Corrections des données de référence",
-          "done": false,
-          "at_human": null
+          "done": true,
+          "at_human": "Appliqué le 2026-09-19 23:11:01"
         }
       ],
-      "migrated": 0,
+      "migrated": 1,
       "total": 1,
       "started_at_human": "2026-09-19 23:08:56",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-19 23:11:01"
     },
     {
       "label": "Données de référence",
       "percent": 0.0,
       "attention": false,
-      "status": "not_started",
+      "status": "in_progress",
       "substeps": [
         {
           "label": "Sexe",
@@ -68,8 +68,8 @@
           "total": 2,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:01",
+          "ended_at_human": "2026-09-19 23:11:03"
         },
         {
           "label": "Civilités",
@@ -78,8 +78,8 @@
           "total": 5,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:03",
+          "ended_at_human": "2026-09-19 23:11:04"
         },
         {
           "label": "Villes",
@@ -88,17 +88,17 @@
           "total": 17,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
-          "ended_at_human": null
+          "started_at_human": "2026-09-19 23:11:04",
+          "ended_at_human": "2026-09-19 23:11:05"
         },
         {
           "label": "Colorations spéciales",
           "percent": 0.0,
           "migrated": 0,
-          "total": 16,
+          "total": 15,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:11:05",
           "ended_at_human": null
         },
         {
@@ -115,7 +115,7 @@
           "label": "Types diagnostiques",
           "percent": 0.0,
           "migrated": 0,
-          "total": 497,
+          "total": 490,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -125,7 +125,7 @@
           "label": "Spécialités",
           "percent": 0.0,
           "migrated": 0,
-          "total": 33,
+          "total": 32,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -135,7 +135,7 @@
           "label": "Rubriques de dépense",
           "percent": 0.0,
           "migrated": 0,
-          "total": 53,
+          "total": 52,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -215,7 +215,7 @@
           "label": "Prélèvements",
           "percent": 0.0,
           "migrated": 0,
-          "total": 825,
+          "total": 797,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -225,7 +225,7 @@
           "label": "Donneurs d'ordre",
           "percent": 0.0,
           "migrated": 0,
-          "total": 129,
+          "total": 124,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -245,7 +245,7 @@
           "label": "Médecins",
           "percent": 0.0,
           "migrated": 0,
-          "total": 2238,
+          "total": 2159,
           "note": null,
           "chunks": null,
           "started_at_human": null,
@@ -253,8 +253,8 @@
         }
       ],
       "migrated": 0,
-      "total": 6118,
-      "started_at_human": null,
+      "total": 5996,
+      "started_at_human": "2026-09-19 23:11:01",
       "ended_at_human": null
     },
     {
