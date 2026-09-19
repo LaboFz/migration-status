@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:53:16",
-  "overall_percent": 18.2,
-  "overall_migrated": 314645,
+  "updated_at": "2026-09-19 23:53:31",
+  "overall_percent": 18.4,
+  "overall_migrated": 318145,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 64.9,
+      "percent": 65.7,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -418,13 +418,13 @@
         },
         {
           "label": "Cotations",
-          "percent": 78.2,
-          "migrated": 99000,
+          "percent": 80.9,
+          "migrated": 102500,
           "total": 126653,
           "note": null,
           "chunks": [
             {
-              "percent": 71.0,
+              "percent": 74.4,
               "complete": false
             },
             {
@@ -440,7 +440,7 @@
               "complete": false
             },
             {
-              "percent": 78.1,
+              "percent": 81.7,
               "complete": false
             },
             {
@@ -448,19 +448,19 @@
               "complete": false
             },
             {
-              "percent": 76.0,
+              "percent": 79.6,
               "complete": false
             },
             {
-              "percent": 81.7,
+              "percent": 85.7,
               "complete": false
             },
             {
-              "percent": 79.3,
+              "percent": 83.2,
               "complete": false
             },
             {
-              "percent": 75.7,
+              "percent": 79.4,
               "complete": false
             }
           ],
@@ -488,7 +488,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 308648,
+      "migrated": 312148,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
