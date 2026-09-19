@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 22:48:08",
+  "updated_at": "2026-09-19 22:48:18",
   "overall_percent": 0.0,
   "overall_migrated": 0,
   "overall_total": 1731514,
@@ -8,14 +8,14 @@
   "phases": [
     {
       "label": "Préparation de l'environnement",
-      "percent": 0.0,
+      "percent": 25.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
         {
           "label": "Instance de base de données démarrée",
-          "done": false,
-          "at_human": null
+          "done": true,
+          "at_human": "Appliqué le 2026-09-19 22:48:07"
         },
         {
           "label": "Sauvegarde récupérée",
