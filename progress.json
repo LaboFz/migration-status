@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19 23:56:01",
-  "overall_percent": 19.7,
-  "overall_migrated": 341632,
+  "updated_at": "2026-09-19 23:56:31",
+  "overall_percent": 19.8,
+  "overall_migrated": 342298,
   "overall_total": 1733066,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -259,7 +259,7 @@
     },
     {
       "label": "Dossiers",
-      "percent": 70.6,
+      "percent": 70.8,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -418,14 +418,14 @@
         },
         {
           "label": "Cotations",
-          "percent": 99.5,
-          "migrated": 125987,
+          "percent": 100.0,
+          "migrated": 126653,
           "total": 126653,
           "note": null,
           "chunks": [
             {
-              "percent": 94.8,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -465,7 +465,7 @@
             }
           ],
           "started_at_human": "2026-09-19 23:42:17",
-          "ended_at_human": null
+          "ended_at_human": "2026-09-19 23:56:28"
         },
         {
           "label": "Organes",
@@ -474,7 +474,7 @@
           "total": 6352,
           "note": null,
           "chunks": null,
-          "started_at_human": null,
+          "started_at_human": "2026-09-19 23:56:28",
           "ended_at_human": null
         },
         {
@@ -488,7 +488,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 335635,
+      "migrated": 336301,
       "total": 475337,
       "started_at_human": "2026-09-19 23:17:46",
       "ended_at_human": null
