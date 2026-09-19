@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 00:36:36",
-  "overall_percent": 45.6,
-  "overall_migrated": 752717,
+  "updated_at": "2026-09-20 00:36:51",
+  "overall_percent": 45.7,
+  "overall_migrated": 755717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 6.8,
+      "percent": 7.1,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,21 +853,21 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 6.9,
-          "migrated": 66000,
+          "percent": 7.2,
+          "migrated": 69000,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
             {
-              "percent": 6.5,
+              "percent": 7.0,
               "complete": false
             },
             {
-              "percent": 6.2,
+              "percent": 6.7,
               "complete": false
             },
             {
-              "percent": 6.3,
+              "percent": 6.7,
               "complete": false
             },
             {
@@ -887,15 +887,15 @@
               "complete": false
             },
             {
-              "percent": 6.2,
+              "percent": 6.8,
               "complete": false
             },
             {
-              "percent": 6.6,
+              "percent": 7.0,
               "complete": false
             },
             {
-              "percent": 8.1,
+              "percent": 8.8,
               "complete": false
             }
           ],
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 66043,
+      "migrated": 69043,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
