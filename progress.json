@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 01:18:56",
-  "overall_percent": 72.5,
-  "overall_migrated": 1198717,
+  "updated_at": "2026-09-20 01:20:26",
+  "overall_percent": 73.6,
+  "overall_migrated": 1215717,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 53.0,
+      "percent": 54.8,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,37 +853,21 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 53.5,
-          "migrated": 512000,
+          "percent": 55.2,
+          "migrated": 529000,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
             {
-              "percent": 48.8,
+              "percent": 50.2,
               "complete": false
             },
             {
-              "percent": 49.2,
+              "percent": 51.1,
               "complete": false
             },
             {
-              "percent": 50.0,
-              "complete": false
-            },
-            {
-              "percent": 49.2,
-              "complete": false
-            },
-            {
-              "percent": 68.1,
-              "complete": false
-            },
-            {
-              "percent": 48.0,
-              "complete": false
-            },
-            {
-              "percent": 53.7,
+              "percent": 51.4,
               "complete": false
             },
             {
@@ -891,11 +875,27 @@
               "complete": false
             },
             {
-              "percent": 58.3,
+              "percent": 70.5,
               "complete": false
             },
             {
-              "percent": 67.2,
+              "percent": 50.0,
+              "complete": false
+            },
+            {
+              "percent": 55.6,
+              "complete": false
+            },
+            {
+              "percent": 52.3,
+              "complete": false
+            },
+            {
+              "percent": 60.6,
+              "complete": false
+            },
+            {
+              "percent": 68.5,
               "complete": false
             }
           ],
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 512043,
+      "migrated": 529043,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
