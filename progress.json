@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 01:04:06",
-  "overall_percent": 63.0,
-  "overall_migrated": 1041717,
+  "updated_at": "2026-09-20 01:04:21",
+  "overall_percent": 63.2,
+  "overall_migrated": 1044217,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 36.8,
+      "percent": 37.0,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,13 +853,13 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 37.1,
-          "migrated": 355000,
+          "percent": 37.3,
+          "migrated": 357500,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
             {
-              "percent": 33.8,
+              "percent": 34.3,
               "complete": false
             },
             {
@@ -871,7 +871,7 @@
               "complete": false
             },
             {
-              "percent": 33.3,
+              "percent": 33.7,
               "complete": false
             },
             {
@@ -879,15 +879,15 @@
               "complete": false
             },
             {
-              "percent": 33.1,
+              "percent": 33.5,
               "complete": false
             },
             {
-              "percent": 36.2,
+              "percent": 36.7,
               "complete": false
             },
             {
-              "percent": 35.0,
+              "percent": 35.6,
               "complete": false
             },
             {
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 355043,
+      "migrated": 357543,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
