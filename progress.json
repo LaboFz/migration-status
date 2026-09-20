@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 01:09:52",
-  "overall_percent": 66.8,
-  "overall_migrated": 1103217,
+  "updated_at": "2026-09-20 01:10:22",
+  "overall_percent": 67.1,
+  "overall_migrated": 1108217,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 43.1,
+      "percent": 43.7,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,13 +853,21 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 43.5,
-          "migrated": 416500,
+          "percent": 44.0,
+          "migrated": 421500,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
             {
-              "percent": 39.7,
+              "percent": 40.2,
+              "complete": false
+            },
+            {
+              "percent": 40.5,
+              "complete": false
+            },
+            {
+              "percent": 40.8,
               "complete": false
             },
             {
@@ -867,35 +875,27 @@
               "complete": false
             },
             {
-              "percent": 40.3,
+              "percent": 53.0,
               "complete": false
             },
             {
-              "percent": 39.6,
+              "percent": 39.4,
               "complete": false
             },
             {
-              "percent": 52.5,
+              "percent": 44.0,
               "complete": false
             },
             {
-              "percent": 38.9,
+              "percent": 41.6,
               "complete": false
             },
             {
-              "percent": 43.5,
+              "percent": 46.4,
               "complete": false
             },
             {
-              "percent": 41.1,
-              "complete": false
-            },
-            {
-              "percent": 45.7,
-              "complete": false
-            },
-            {
-              "percent": 54.7,
+              "percent": 55.4,
               "complete": false
             }
           ],
@@ -913,13 +913,18 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 416543,
+      "migrated": 421543,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
     }
   ],
   "incidents": [
+    {
+      "at_human": "2026-09-20 01:10:16",
+      "severity": "retry",
+      "message": "Coupure réseau — reprise automatique en cours"
+    },
     {
       "at_human": "2026-09-20 01:00:35",
       "severity": "retry",
