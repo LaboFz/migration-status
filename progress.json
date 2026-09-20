@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-20 02:11:27",
-  "overall_percent": 99.5,
-  "overall_migrated": 1654724,
-  "overall_total": 1662591,
+  "updated_at": "2026-09-20 02:12:57",
+  "overall_percent": 100.0,
+  "overall_migrated": 1663242,
+  "overall_total": 1663242,
   "run_started_at_human": "2026-09-19 23:08:56",
-  "run_ended_at_human": null,
+  "run_ended_at_human": "2026-09-20 02:12:38",
   "phases": [
     {
       "label": "Préparation de l'environnement",
@@ -827,9 +827,9 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 99.2,
+      "percent": 100.0,
       "attention": false,
-      "status": "in_progress",
+      "status": "done",
       "substeps": [
         {
           "label": "États du circuit",
@@ -854,13 +854,13 @@
         {
           "label": "Historique des dossiers",
           "percent": 100.0,
-          "migrated": 968007,
-          "total": 968007,
+          "migrated": 968488,
+          "total": 968488,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
             {
-              "percent": 99.5,
-              "complete": false
+              "percent": 100.0,
+              "complete": true
             },
             {
               "percent": 100.0,
@@ -904,19 +904,60 @@
         },
         {
           "label": "Historique des factures",
-          "percent": 0.0,
-          "migrated": 0,
-          "total": 7867,
+          "percent": 100.0,
+          "migrated": 8037,
+          "total": 8037,
           "note": "489 orphelines + 0 état(s) non reconnu(s) + 170 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
-          "chunks": null,
+          "chunks": [
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            },
+            {
+              "percent": 100.0,
+              "complete": true
+            }
+          ],
           "started_at_human": null,
           "ended_at_human": null
         }
       ],
-      "migrated": 968050,
-      "total": 975917,
+      "migrated": 976568,
+      "total": 976568,
       "started_at_human": "2026-09-20 00:29:57",
-      "ended_at_human": null
+      "ended_at_human": "2026-09-20 02:12:38"
     }
   ],
   "incidents": [
