@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20 01:08:51",
-  "overall_percent": 66.1,
-  "overall_migrated": 1092217,
+  "updated_at": "2026-09-20 01:09:06",
+  "overall_percent": 66.3,
+  "overall_migrated": 1095217,
   "overall_total": 1652406,
   "run_started_at_human": "2026-09-19 23:08:56",
   "run_ended_at_human": null,
@@ -827,7 +827,7 @@
     },
     {
       "label": "Circuit de traitement",
-      "percent": 42.0,
+      "percent": 42.3,
       "attention": false,
       "status": "in_progress",
       "substeps": [
@@ -853,8 +853,8 @@
         },
         {
           "label": "Historique des dossiers",
-          "percent": 42.3,
-          "migrated": 405500,
+          "percent": 42.6,
+          "migrated": 408500,
           "total": 957822,
           "note": "71985 orphelines + 0 état(s) non reconnu(s) + 10666 transitions fusionnées (même dossier/état/date/auteur, non distinguables par le schéma) — plafond réel, pas du travail restant",
           "chunks": [
@@ -867,11 +867,11 @@
               "complete": false
             },
             {
-              "percent": 39.4,
+              "percent": 39.9,
               "complete": false
             },
             {
-              "percent": 38.1,
+              "percent": 38.6,
               "complete": false
             },
             {
@@ -879,19 +879,19 @@
               "complete": false
             },
             {
-              "percent": 38.0,
+              "percent": 38.4,
               "complete": false
             },
             {
-              "percent": 41.9,
+              "percent": 42.4,
               "complete": false
             },
             {
-              "percent": 40.1,
+              "percent": 40.6,
               "complete": false
             },
             {
-              "percent": 44.3,
+              "percent": 45.0,
               "complete": false
             },
             {
@@ -913,7 +913,7 @@
           "ended_at_human": null
         }
       ],
-      "migrated": 405543,
+      "migrated": 408543,
       "total": 965732,
       "started_at_human": "2026-09-20 00:29:57",
       "ended_at_human": null
